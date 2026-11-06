@@ -1,0 +1,12 @@
+{
+  "name": "ikf-vehicle-auction-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "build:client": "cd client && npm run build",
+    "build": "npm run install:client && npm run build:client && npm run install:server",
+    "start": "cd server && node index.js"
+  }
+}

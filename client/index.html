@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IKF Vehicle Finance — Telangana Multi-Category Vehicle Marketplace</title>
+    <meta name="description" content="Browse verified inventory of passenger cars, taxi vehicles, SCV, LCV, HCV trucks, agricultural tractors, and commercial equipment from IKF Vehicle Finance yards across Telangana. Place online bids and contact yards directly." />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="IKF Vehicle Finance — Telangana Vehicle Marketplace" />
+    <meta property="og:description" content="Cars, Taxis, SCV, LCV, HCV, Tractors, CE Equipment — verified marketplace powered by IKF Vehicle Finance in Telangana." />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon: IKF Logo -->
+    <link rel="icon" type="image/png" href="/ikf-logo.png" />
+
+    <!-- Google Fonts: Premium Stack -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,400&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN with extended config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy:    '#0B192C',
+                deep:    '#0E2138',
+                blue:    '#1B3B6F',
+                sky:     '#0284C7',
+                accent:  '#0EA5E9',
+                gold:    '#D97706',
+                amber:   '#F59E0B',
+                emerald: '#059669',
+                slate:   '#64748B',
+                subtle:  '#F8FAFC',
+              }
+            },
+            fontFamily: {
+              sans:    ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+              heading: ['Outfit', '-apple-system', 'sans-serif'],
+              mono:    ['JetBrains Mono', 'monospace'],
+            },
+            borderRadius: {
+              '3xl': '1.5rem',
+              '4xl': '2rem',
+              '5xl': '2.5rem',
+            },
+            boxShadow: {
+              'subtle': '0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03)',
+              'card': '0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04)',
+              'card-hover': '0 20px 40px -10px rgba(15, 23, 42, 0.12), 0 8px 16px -4px rgba(15, 23, 42, 0.06)',
+              'glow-amber': '0 8px 24px -4px rgba(245, 158, 11, 0.35)',
+              'glow-blue': '0 8px 24px -4px rgba(2, 132, 199, 0.35)',
+              'sheet': '0 -10px 40px rgba(0, 0, 0, 0.15)',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-brand-subtle text-slate-800 font-sans antialiased selection:bg-sky-100 selection:text-sky-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
