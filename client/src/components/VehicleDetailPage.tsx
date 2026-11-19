@@ -361,10 +361,10 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
 
               <div>
                 <div className="font-heading font-black text-3xl sm:text-4xl text-slate-900">
-                  {formatPrice(vehicle.price)}
+                  NA
                 </div>
                 <p className="text-xs text-slate-500 font-medium mt-1">
-                  Starting asking price. You can place a bid equal to or higher than this amount.
+                  Open for competitive online bidding. Enter your best offer below.
                 </p>
               </div>
             </div>
@@ -417,14 +417,15 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                   <div>
                     <div className="flex justify-between items-center text-xs text-slate-300 mb-1.5 font-semibold">
                       <span>Your Offer / Bid (₹)</span>
-                      <span className="text-amber-400 font-mono">Min: ₹{vehicle.price.toLocaleString('en-IN')}</span>
+                      <span className="text-amber-400 font-mono">Open Bidding</span>
                     </div>
                     <div className="relative">
                       <span className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 font-bold">₹</span>
                       <input
                         type="number"
                         required
-                        min={vehicle.price}
+                        min={1}
+                        placeholder="Enter bid amount (e.g. 150000)"
                         value={bidAmount}
                         onChange={(e) => setBidAmount(e.target.value)}
                         className="w-full h-12 pl-8 pr-3 bg-slate-800/90 border border-slate-700 rounded-xl text-white font-mono font-bold text-lg focus:outline-none focus:border-amber-400"
@@ -438,7 +439,7 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                           key={inc}
                           type="button"
                           onClick={() => {
-                            const curr = Number(bidAmount) || vehicle.price;
+                            const curr = Number(bidAmount) || 0;
                             setBidAmount(String(curr + inc));
                           }}
                           className="px-2.5 py-1 text-[10px] font-bold text-slate-200 bg-slate-800 hover:bg-slate-700 rounded-lg border border-slate-700 shrink-0"

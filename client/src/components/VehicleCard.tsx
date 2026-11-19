@@ -12,8 +12,8 @@ interface VehicleCardProps {
   whatsappNumber?: string;
 }
 
-export const formatPrice = (amount: number): string => {
-  if (!amount && amount !== 0) return 'Price on Request';
+export const formatPrice = (amount?: number): string => {
+  if (!amount || amount === 0) return 'NA';
   if (amount >= 10000000) return `₹${(amount / 10000000).toFixed(2)} Cr`;
   if (amount >= 100000)   return `₹${(amount / 100000).toFixed(2)} L`;
   return new Intl.NumberFormat('en-IN', {
@@ -137,10 +137,10 @@ export const VehicleCard: React.FC<VehicleCardProps> = ({ vehicle, onViewDetails
           <div className="mt-3 p-3 rounded-2xl bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-transparent border border-amber-500/25 flex items-center justify-between">
             <div>
               <span className="text-[10px] font-extrabold text-amber-900 uppercase tracking-wider block">
-                Base Asking Price
+                Price
               </span>
               <div className="font-heading font-black text-lg sm:text-xl text-slate-900 leading-tight">
-                {formatPrice(vehicle.price)}
+                NA
               </div>
             </div>
             <div className="text-right">

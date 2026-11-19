@@ -65,7 +65,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
         setError('Please enter a valid numeric bid amount');
         return;
       }
-      if (numericBid < minBasePrice) {
+      if (minBasePrice > 0 && numericBid < minBasePrice) {
         setError(`Your bid of ₹${numericBid.toLocaleString('en-IN')} cannot be less than the base asking price of ₹${minBasePrice.toLocaleString('en-IN')}`);
         return;
       }
@@ -199,7 +199,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
                         {vehicle.make} {vehicle.model}
                       </h5>
                       <div className="text-xs text-slate-600 font-medium">
-                        Base Asking Price: <strong className="text-slate-900">{formatPrice(vehicle.price)}</strong>
+                        Price: <strong className="text-slate-900">NA</strong>
                       </div>
                     </div>
                   </div>
@@ -263,7 +263,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
                       Your Offer / Bid Price (₹) <span className="text-red-500">*</span>
                     </label>
                     <span className="text-[11px] font-bold text-amber-800">
-                      Min: ₹{minBasePrice.toLocaleString('en-IN')}
+                      {minBasePrice > 0 ? `Min: ₹${minBasePrice.toLocaleString('en-IN')}` : 'Open Bidding'}
                     </span>
                   </div>
 
