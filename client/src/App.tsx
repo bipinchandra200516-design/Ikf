@@ -24,17 +24,17 @@ export function App() {
 
   // Global settings & data
   const [settings, setSettings] = useState<DealershipSettings>({
-    brand_name: 'IKF',
-    tagline: 'IKF Vehicle Finance — Multi-Category Vehicle Marketplace',
+    brand_name: 'AutoHub',
+    tagline: 'AutoHub — Multi-Category Vehicle Marketplace',
     phone: '1800-309-3090',
     whatsapp_number: '919705305477',
-    email: 'contact@ikffinance.com',
-    address: 'IKF Finance Ltd, Telangana State Yard & Branch Network',
-    default_price_label: 'Base Asking Price',
+    email: 'contact@autohub.com',
+    address: 'AutoHub Pan-India Yard & Branch Network',
+    default_price_label: 'Price',
     public_show_registration: true,
     public_show_yard_name: true,
     hero_headline: 'Certified Pre-Owned & Commercial Vehicle Inventory',
-    hero_subtext: 'Direct yard purchases and transparent bidding powered by IKF Vehicle Finance.'
+    hero_subtext: 'Direct yard purchases and transparent bidding powered by AutoHub Marketplace.'
   });
 
   const [categoryCounts, setCategoryCounts] = useState<CategoryCounts>({

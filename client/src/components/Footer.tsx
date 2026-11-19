@@ -292,21 +292,19 @@ export const Footer: React.FC<FooterProps> = ({ settings, onNavigate, onOpenEnqu
           <div className="space-y-5">
             <div className="flex items-center gap-3">
               <div className="h-10 bg-white p-1 rounded-xl shadow-xs">
-                <img
-                  src="/ikf-logo.png"
-                  alt="IKF Vehicle Finance"
-                  className="h-8 w-auto object-contain"
-                />
+                <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-black text-sm">
+                  AH
+                </div>
               </div>
               <div>
                 <div className="font-heading font-black text-xl text-white leading-none">
-                  IKF Vehicle Finance
+                  AutoHub Vehicles
                 </div>
                 <div className="text-[10px] text-slate-400 uppercase tracking-widest mt-0.5">Yard Marketplace</div>
               </div>
             </div>
             <p className="text-slate-400 text-[12px] leading-relaxed">
-              IKF Vehicle Finance — Certified passenger cars, commercial vehicles, trucks, agricultural tractors, and commercial equipment (JCB, tippers) with direct yard bidding across Telangana.
+              AutoHub — Certified passenger cars, commercial vehicles, trucks, agricultural tractors, and commercial equipment with direct yard bidding.
             </p>
             <div className="flex gap-2">
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/[0.05] border border-white/[0.08] text-[10px] text-slate-400">

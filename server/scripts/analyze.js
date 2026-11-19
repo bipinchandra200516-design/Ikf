@@ -36,3 +36,4 @@ console.log('In DB but not in Excel:', notInExcel.length);
 notInExcel.forEach(v => {
   console.log(` - ID: ${v.id}, Reg: ${v.registration_number}, Model: ${v.model}, Desc: ${v.original_vehicle_description}, Status: ${v.publication_status}`);
 });
+

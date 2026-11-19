@@ -33,3 +33,4 @@ newRows.forEach(r => {
 });
 
 console.log(`Summary of new rows: ${withPic} with pic, ${withoutPic} without pic`);
+

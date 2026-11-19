@@ -199,7 +199,7 @@ app.post('/api/public/enquiries', (req, res) => {
     });
 
     const successMsg = bidPriceNum
-      ? `Bid of ₹${bidPriceNum.toLocaleString('en-IN')} placed successfully! Ref: ${enquiry.id}. The IKF branch / yard team will contact you to proceed.`
+      ? `Bid of ₹${bidPriceNum.toLocaleString('en-IN')} placed successfully! Ref: ${enquiry.id}. The yard / branch team will contact you to proceed.`
       : 'Thank you! Your enquiry has been received. Our sales specialist will contact you shortly.';
 
     res.status(201).json({
@@ -220,12 +220,13 @@ app.post('/api/public/enquiries', (req, res) => {
 
 app.post('/api/admin/auth/login', (req, res) => {
   try {
-    const { email, password } = req.body;
-    if (!email || !password) {
-      return res.status(400).json({ error: 'Email and password are required' });
+    const { email, username, password } = req.body;
+    const identifier = username || email;
+    if (!identifier || !password) {
+      return res.status(400).json({ error: 'Username and password are required' });
     }
 
-    const admin = db.findAdminByEmail(email);
+    const admin = db.findAdminByEmail(identifier);
     if (!admin) {
       return res.status(401).json({ error: 'Invalid admin credentials' });
     }
@@ -691,11 +692,11 @@ app.get('/api/admin/enquiries/export-excel', authenticateAdmin, (req, res) => {
 
     const worksheet = xlsx.utils.json_to_sheet(rows.length > 0 ? rows : [{ 'Status': 'No leads recorded yet' }]);
     const workbook = xlsx.utils.book_new();
-    xlsx.utils.book_append_sheet(workbook, worksheet, 'IKF_Customer_Leads');
+    xlsx.utils.book_append_sheet(workbook, worksheet, 'Customer_Leads');
     const buffer = xlsx.write(workbook, { type: 'buffer', bookType: 'xlsx' });
 
     res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-    res.setHeader('Content-Disposition', 'attachment; filename="IKF_Customer_Leads_Report.xlsx"');
+    res.setHeader('Content-Disposition', 'attachment; filename="Customer_Leads_Report.xlsx"');
     res.send(buffer);
   } catch (err) {
     console.error('Enquiries Excel export error:', err);
@@ -756,7 +757,7 @@ app.get('/api/admin/archive/export-excel', authenticateAdmin, (req, res) => {
 
     const monthStr = month && month !== 'all' ? `_Month_${month}` : '';
     const yearStr = year && year !== 'all' ? `_Year_${year}` : '';
-    const filename = `IKF_Sold_and_Deleted_Vehicles${yearStr}${monthStr}.xlsx`;
+    const filename = `Sold_and_Deleted_Vehicles${yearStr}${monthStr}.xlsx`;
 
     res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
     res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);

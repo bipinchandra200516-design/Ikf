@@ -60,7 +60,7 @@ export const Navbar: React.FC<NavbarProps> = ({ settings, currentView, onNavigat
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              <span className="text-white font-semibold tracking-wide">IKF Telangana Live Inventory</span>
+              <span className="text-white font-semibold tracking-wide">Live Multi-Category Inventory</span>
             </span>
             <span className="hidden md:inline-flex items-center gap-1.5 text-slate-300">
               <ShieldCheck className="w-3.5 h-3.5 text-sky-400" />
@@ -103,25 +103,23 @@ export const Navbar: React.FC<NavbarProps> = ({ settings, currentView, onNavigat
               onClick={() => handleNav('home')}
               className="flex items-center gap-3 text-left focus:outline-none group"
             >
-              <div className="h-11 w-auto bg-white p-1 rounded-xl border border-slate-200/80 shadow-subtle flex items-center justify-center transition-transform group-hover:scale-105">
-                <img
-                  src="/ikf-logo.png"
-                  alt="IKF Vehicle Finance"
-                  className="h-9 w-auto object-contain"
-                />
+              <div className="h-11 w-11 rounded-2xl bg-gradient-to-tr from-blue-700 via-indigo-600 to-sky-400 p-0.5 shadow-md flex items-center justify-center transition-transform group-hover:scale-105">
+                <div className="w-full h-full bg-[#0B192C] rounded-[14px] flex items-center justify-center">
+                  <Truck className="w-5 h-5 text-sky-400" />
+                </div>
               </div>
 
               <div>
                 <div className="flex items-center gap-2">
                   <span className="font-heading font-black text-xl sm:text-2xl tracking-tight text-[#0B192C] leading-none group-hover:text-blue-700 transition-colors">
-                    IKF <span className="font-extrabold text-blue-700">Vehicles</span>
+                    AutoHub <span className="font-extrabold text-blue-700">Vehicles</span>
                   </span>
                   <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-md bg-amber-500/10 text-amber-700 text-[9px] font-black uppercase tracking-wider border border-amber-500/20">
                     Direct Yard Bidding
                   </span>
                 </div>
                 <p className="text-[10px] sm:text-[11px] font-semibold text-slate-500 uppercase tracking-wider block mt-0.5">
-                  IKF Vehicle Finance Marketplace
+                  Multi-Category Vehicle Marketplace
                 </p>
               </div>
             </button>

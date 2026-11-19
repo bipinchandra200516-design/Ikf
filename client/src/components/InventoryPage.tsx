@@ -129,7 +129,7 @@ export const InventoryPage: React.FC<InventoryPageProps> = ({
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-6 mb-6 border-b border-slate-200/80">
           <div>
             <span className="text-[11px] font-black uppercase tracking-wider text-blue-700 block mb-1">
-              IKF Central Dealership Inventory
+              Live Dealership Inventory
             </span>
             <h1 className="text-2xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight">
               Vehicle Inventory Catalog

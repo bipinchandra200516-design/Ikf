@@ -80,11 +80,11 @@ export const submitCustomerEnquiry = async (data: {
 };
 
 // ================= ADMIN API =================
-export const adminLogin = async (email: string, password: string): Promise<{ token: string; user: any }> => {
+export const adminLogin = async (usernameOrEmail: string, password: string): Promise<{ token: string; user: any }> => {
   const res = await fetch(`${API_BASE}/admin/auth/login`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, password })
+    body: JSON.stringify({ email: usernameOrEmail, username: usernameOrEmail, password })
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || 'Login failed');
@@ -341,7 +341,7 @@ export const downloadArchiveExcel = async (params: Record<string, string | numbe
   a.href = url;
   const monthStr = params.month && params.month !== 'all' ? `_Month_${params.month}` : '';
   const yearStr = params.year && params.year !== 'all' ? `_Year_${params.year}` : '';
-  a.download = `IKF_Sold_and_Deleted_Archive${yearStr}${monthStr}.xlsx`;
+  a.download = `Vehicle_Archive_${yearStr}${monthStr}.xlsx`;
   document.body.appendChild(a);
   a.click();
   window.URL.revokeObjectURL(url);
@@ -358,7 +358,7 @@ export const downloadLeadsExcel = async (): Promise<void> => {
   const url = window.URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'IKF_Customer_Leads_Report.xlsx';
+  a.download = 'Customer_Leads_Report.xlsx';
   document.body.appendChild(a);
   a.click();
   window.URL.revokeObjectURL(url);

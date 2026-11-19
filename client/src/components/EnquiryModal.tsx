@@ -119,7 +119,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
                 Submit an online enquiry
               </h3>
               <p className="text-[11px] text-slate-400">
-                IKF Vehicle Finance • Direct Yard Sales
+                AutoHub Marketplace • Direct Yard Sales
               </p>
             </div>
           </div>
@@ -363,7 +363,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
                 className="w-full py-3.5 rounded-2xl bg-gradient-to-r from-amber-500 via-amber-600 to-amber-700 hover:from-amber-600 hover:to-amber-800 text-white font-extrabold text-sm shadow-lg shadow-amber-500/25 transition-all flex items-center justify-center gap-2 disabled:opacity-50"
               >
                 {loading ? (
-                  <span>Submitting to IKF System...</span>
+                  <span>Submitting Offer...</span>
                 ) : (
                   <>
                     <Gavel className="w-4 h-4" />

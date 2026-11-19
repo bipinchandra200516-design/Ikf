@@ -115,7 +115,7 @@ export const Hero: React.FC<HeroProps> = ({ settings, onSearch, onBrowse }) => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
             </span>
-            <span>IKF Telangana Dealership Stock</span>
+            <span>Verified Dealership & Yard Stock</span>
             <span className="w-px h-3 bg-white/20 mx-0.5 sm:mx-1" />
             <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
             <span className="text-cyan-300 font-bold">Direct Yard Bidding</span>

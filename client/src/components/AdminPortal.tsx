@@ -32,8 +32,8 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
   // Auth state
   const [token, setAdminToken] = useState<string | null>(getToken());
   const [adminUser, setAdminUser] = useState<any>(null);
-  const [loginEmail, setLoginEmail] = useState('admin@ikf.com');
-  const [loginPassword, setLoginPassword] = useState('Admin@AutoHub2026!');
+  const [loginEmail, setLoginEmail] = useState('');
+  const [loginPassword, setLoginPassword] = useState('');
   const [loginError, setLoginError] = useState<string | null>(null);
   const [loginLoading, setLoginLoading] = useState(false);
 
@@ -524,7 +524,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
         branch_location: newVehicle.branch_location.trim() || 'Central Hub',
         yard_name: newVehicle.yard_name.trim(),
         internal_yard_contact: newVehicle.internal_yard_contact.trim(),
-        source_loan_id: newVehicle.source_loan_id.trim() || `IKF-MAN-${Date.now().toString().slice(-6)}`,
+        source_loan_id: newVehicle.source_loan_id.trim() || `MAN-${Date.now().toString().slice(-6)}`,
         internal_customer_name: newVehicle.internal_customer_name.trim() || 'Manual Direct Entry',
         internal_chassis_number: newVehicle.internal_chassis_number.trim(),
         internal_engine_number: newVehicle.internal_engine_number.trim(),
@@ -643,7 +643,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
             <Lock className="w-8 h-8" />
           </div>
           <h2 className="text-3xl font-black text-white font-heading tracking-tight">
-            IKF Admin Suite
+            Admin Suite
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-slate-400 font-medium">
             Vehicle Fleet Management & Exact 16-Column Excel Engine
@@ -662,11 +662,12 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
 
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">
-                  Staff Email Address
+                  Username
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   required
+                  placeholder="Enter username"
                   value={loginEmail}
                   onChange={(e) => setLoginEmail(e.target.value)}
                   className="w-full px-4 py-3 rounded-xl bg-slate-950/80 border border-slate-700 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
@@ -675,29 +676,16 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
 
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">
-                  Security Password
+                  Password
                 </label>
                 <input
                   type="password"
                   required
+                  placeholder="Enter password"
                   value={loginPassword}
                   onChange={(e) => setLoginPassword(e.target.value)}
                   className="w-full px-4 py-3 rounded-xl bg-slate-950/80 border border-slate-700 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
                 />
-              </div>
-
-              {/* Demo Credentials Box */}
-              <div className="p-3.5 bg-slate-950/90 rounded-2xl border border-slate-800 text-[11px] text-slate-400 space-y-1">
-                <span className="font-bold text-sky-400 flex items-center">
-                  <Sparkles className="w-3.5 h-3.5 mr-1" />
-                  Master Administrator Access:
-                </span>
-                <div className="font-mono text-slate-300">
-                  User: <code>admin@autohub.com</code>
-                </div>
-                <div className="font-mono text-slate-300">
-                  Pass: <code>Admin@AutoHub2026!</code>
-                </div>
               </div>
 
               <button
@@ -734,11 +722,11 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
             {/* Logo */}
             <div className="flex items-center space-x-2.5 sm:space-x-3">
               <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-br from-blue-600 to-sky-400 flex items-center justify-center text-white font-black text-xs sm:text-sm shadow-md shrink-0">
-                IKF
+                AH
               </div>
               <div>
                 <span className="font-heading font-black text-sm sm:text-base text-white tracking-tight leading-none block">
-                  IKF Command
+                  Command Center
                 </span>
                 <span className="text-[9px] sm:text-[10px] font-semibold text-sky-400 flex items-center mt-0.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1 animate-pulse"></span>
@@ -3356,7 +3344,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
                       Confidential Banking & Logistics Record
                     </strong>
                     <p className="text-[11px] text-rose-200/90">
-                      These fields are strictly private to IKF internal personnel. They are NEVER sent over customer-facing endpoints.
+                      These fields are strictly private to internal personnel. They are NEVER sent over customer-facing endpoints.
                     </p>
                   </div>
 
@@ -3659,7 +3647,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
                     </label>
                     <input
                       type="text"
-                      placeholder="e.g. IKF Central Yard, Shree Yard"
+                      placeholder="e.g. Central Yard, Shree Yard"
                       value={newVehicle.yard_name}
                       onChange={(e) => setNewVehicle({ ...newVehicle, yard_name: e.target.value })}
                       className="w-full p-2.5 rounded-xl border border-slate-200 bg-slate-50 text-xs font-semibold focus:bg-white focus:ring-2 focus:ring-emerald-500"
@@ -3790,7 +3778,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
                     </label>
                     <input
                       type="text"
-                      placeholder="e.g. IKF-LN-29402"
+                      placeholder="e.g. LN-29402"
                       value={newVehicle.source_loan_id}
                       onChange={(e) => setNewVehicle({ ...newVehicle, source_loan_id: e.target.value })}
                       className="w-full p-2.5 rounded-xl border border-slate-200 bg-slate-50 text-xs font-semibold focus:bg-white focus:ring-2 focus:ring-purple-500"

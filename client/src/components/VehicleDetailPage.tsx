@@ -68,8 +68,8 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
   const handleShare = () => {
     if (navigator.share && vehicle) {
       navigator.share({
-        title: `${vehicle.make} ${vehicle.model} - IKF Vehicle Finance`,
-        text: `Check out this certified ${vehicle.manufacturing_year} ${vehicle.make} ${vehicle.model} available at IKF ${vehicle.branch_location} branch.`,
+        title: `${vehicle.make} ${vehicle.model} - AutoHub Vehicles`,
+        text: `Check out this certified ${vehicle.manufacturing_year} ${vehicle.make} ${vehicle.model} available at ${vehicle.branch_location} branch.`,
         url: window.location.href,
       }).catch(() => {});
     } else {
@@ -480,7 +480,7 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                     className="w-full h-12 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-black text-xs uppercase tracking-wider transition shadow-lg shadow-amber-500/20 active:scale-98 disabled:opacity-50 flex items-center justify-center gap-2"
                   >
                     {submittingBid ? (
-                      <span>Submitting to IKF System...</span>
+                      <span>Submitting Bid...</span>
                     ) : (
                       <>
                         <Gavel className="w-4 h-4" />

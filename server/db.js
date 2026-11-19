@@ -14,17 +14,17 @@ if (!fs.existsSync(DATA_DIR)) {
 }
 
 const DEFAULT_SETTINGS = {
-  brand_name: 'IKF',
-  tagline: 'IKF Vehicle Finance — Multi-Category Vehicle Marketplace',
+  brand_name: 'AutoHub',
+  tagline: 'AutoHub — Multi-Category Vehicle Marketplace',
   phone: '1800-309-3090',
   whatsapp_number: '919705305477',
-  email: 'contact@ikffinance.com',
-  address: 'IKF Finance Ltd, Pan-India Yard & Branch Network',
-  default_price_label: 'Base Asking Price',
+  email: 'contact@autohub.com',
+  address: 'AutoHub Pan-India Yard & Branch Network',
+  default_price_label: 'Price',
   public_show_registration: true,
   public_show_yard_name: true,
   hero_headline: 'Certified Pre-Owned & Commercial Vehicle Inventory',
-  hero_subtext: 'Direct yard purchases and transparent bidding powered by IKF Vehicle Finance.'
+  hero_subtext: 'Direct yard purchases and transparent bidding powered by AutoHub Marketplace.'
 };
 
 const DEFAULT_STATUS_MAPPINGS = [
@@ -430,8 +430,14 @@ class AutoHubDatabase {
   }
 
   // --- AUTH ---
-  findAdminByEmail(email) {
-    return this.data.admin_users.find(u => u.email.toLowerCase() === email.toLowerCase());
+  findAdminByEmail(identifier) {
+    if (!identifier) return null;
+    const q = String(identifier).toLowerCase().trim();
+    return this.data.admin_users.find(u => 
+      (u.email && u.email.toLowerCase() === q) ||
+      (u.username && u.username.toLowerCase() === q) ||
+      (u.name && u.name.toLowerCase() === q)
+    );
   }
 
   // --- VEHICLES ---
