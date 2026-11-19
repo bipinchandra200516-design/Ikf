@@ -844,7 +844,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onBackToSite }) => {
               <div className="flex items-center space-x-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 <span className="font-bold text-white">Admin Command</span>
-                <span className="text-slate-400 text-[10px]">({adminUser?.email || 'admin@ikf.com'})</span>
+                <span className="text-slate-400 text-[10px]">({adminUser?.username || adminUser?.name || 'Administrator'})</span>
               </div>
             </div>
 

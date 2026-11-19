@@ -689,7 +689,7 @@ class AutoHubDatabase {
   // --- ADMIN VEHICLE MUTATIONS ---
   createVehicle(vehicleData) {
     const id = `veh-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
-    const loanId = vehicleData.source_loan_id?.trim() || `IKF-MAN-${Date.now().toString().slice(-6)}`;
+    const loanId = vehicleData.source_loan_id?.trim() || `MAN-${Date.now().toString().slice(-6)}`;
     
     const newVehicle = {
       id,
@@ -732,7 +732,7 @@ class AutoHubDatabase {
     return this.getVehicleByIdAdmin(id);
   }
 
-  createArchiveRecord(vehicle, action_type, remarks = '', adminUser = 'admin@ikf.com', soldPrice = null) {
+  createArchiveRecord(vehicle, action_type, remarks = '', adminUser = 'admin@autohub.com', soldPrice = null) {
     if (!this.data.archive_records) {
       this.data.archive_records = [];
     }
@@ -767,7 +767,7 @@ class AutoHubDatabase {
       action_month: now.getMonth() + 1,
       action_month_name: monthNames[now.getMonth()],
       remarks: remarks || (action_type === 'sold' ? 'Vehicle Marked as Sold Out' : 'Vehicle Deleted from Inventory'),
-      admin_user: adminUser || 'admin@ikf.com'
+      admin_user: adminUser || 'admin@autohub.com'
     };
     this.data.archive_records.unshift(record);
     return record;
@@ -842,7 +842,7 @@ class AutoHubDatabase {
     };
   }
 
-  updateVehicle(id, updates, adminUser = 'admin@ikf.com') {
+  updateVehicle(id, updates, adminUser = 'admin@autohub.com') {
     const idx = this.data.vehicles.findIndex(v => v.id === id);
     if (idx === -1) return null;
 
@@ -882,7 +882,7 @@ class AutoHubDatabase {
     return this.getVehicleByIdAdmin(id);
   }
 
-  deleteVehicle(id, adminUser = 'admin@ikf.com', reason = 'Deleted from inventory by administrator') {
+  deleteVehicle(id, adminUser = 'admin@autohub.com', reason = 'Deleted from inventory by administrator') {
     const idx = this.data.vehicles.findIndex(v => v.id === id);
     if (idx === -1) return false;
     const vehicle = this.data.vehicles[idx];
