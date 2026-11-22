@@ -26,8 +26,6 @@ export function App() {
   const [settings, setSettings] = useState<DealershipSettings>({
     brand_name: 'AutoHub',
     tagline: 'AutoHub — Multi-Category Vehicle Marketplace',
-    phone: '1800-309-3090',
-    whatsapp_number: '919705305477',
     phone: '7673982156',
     whatsapp_number: '917673982156',
     email: 'contact@autohub.com',
