@@ -28,13 +28,15 @@ export function App() {
     tagline: 'AutoHub — Multi-Category Vehicle Marketplace',
     phone: '1800-309-3090',
     whatsapp_number: '919705305477',
+    phone: '7673982156',
+    whatsapp_number: '917673982156',
     email: 'contact@autohub.com',
     address: 'AutoHub Pan-India Yard & Branch Network',
     default_price_label: 'Price',
     public_show_registration: true,
     public_show_yard_name: true,
     hero_headline: 'Certified Pre-Owned & Commercial Vehicle Inventory',
-    hero_subtext: 'Direct yard purchases and transparent bidding powered by AutoHub Marketplace.'
+    hero_subtext: 'Direct yard purchases and verified inventory powered by AutoHub Marketplace.'
   });
 
   const [categoryCounts, setCategoryCounts] = useState<CategoryCounts>({

@@ -112,11 +112,14 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
         phone_number: bidderPhone,
         bid_price: numBid,
         message: bidderNotes.trim() || `Online bid of ₹${numBid.toLocaleString('en-IN')} placed on ${vehicle?.make} ${vehicle?.model} (${vehicle?.registration_number}).`
+        message: bidderNotes.trim() || `Inquiry for direct purchase of ${vehicle?.make} ${vehicle?.model} (${vehicle?.registration_number || ''}).`
       });
 
       setBidSuccess(res.message || `Bid of ₹${numBid.toLocaleString('en-IN')} registered! The yard team will contact you.`);
+      setBidSuccess(res.message || 'Your enquiry has been received! The yard team will contact you shortly.');
     } catch (err: any) {
       setBidError(err.message || 'Failed to submit bid. Please try again.');
+      setBidError(err.message || 'Failed to submit enquiry. Please try again or call the yard directly.');
     } finally {
       setSubmittingBid(false);
     }
@@ -287,11 +290,13 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                       </span>
                       <strong className="text-sm font-mono text-emerald-400 font-black">
                         📞 {vehicle.yard_contact_number || '1800-309-3090'}
+                        📞 {vehicle.yard_contact_number || '7673982156'}
                       </strong>
                     </div>
 
                     <a
                       href={`tel:${vehicle.yard_contact_number || '1800-309-3090'}`}
+                      href={`tel:${vehicle.yard_contact_number || '7673982156'}`}
                       className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center gap-1.5 shadow-sm transition"
                     >
                       <Phone className="w-3.5 h-3.5" />
@@ -365,43 +370,68 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                 </div>
                 <p className="text-xs text-slate-500 font-medium mt-1">
                   Open for competitive online bidding. Enter your best offer below.
+                  Available for direct physical inspection and purchase at the designated yard.
                 </p>
               </div>
             </div>
 
             {/* "Submit an online enquiry" Box */}
-            <div className="bg-[#0B192C] text-white rounded-3xl p-6 sm:p-7 shadow-2xl border border-slate-800 space-y-5">
+            {/* Direct Yard Enquiry Box */}
+            <div id="enquiry-section" className="bg-[#0B192C] text-white rounded-3xl p-6 sm:p-7 shadow-2xl border border-slate-800 space-y-5">
               <div className="flex items-center justify-between border-b border-white/10 pb-4">
                 <div className="flex items-center gap-2.5">
                   <div className="w-9 h-9 rounded-xl bg-amber-500/20 flex items-center justify-center">
                     <Gavel className="w-5 h-5 text-amber-400" />
+                  <div className="w-9 h-9 rounded-xl bg-emerald-500/20 flex items-center justify-center">
+                    <Phone className="w-5 h-5 text-emerald-400" />
                   </div>
                   <div>
                     <h3 className="font-heading font-black text-base text-white">
                       Submit an online enquiry
+                      Direct Yard Purchase & Enquiry
                     </h3>
                     <p className="text-[10px] text-slate-400">
                       Direct Bidding & Yard Registration
+                      Connect Directly with Yard Personnel
                     </p>
                   </div>
                 </div>
 
                 <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-md bg-amber-400 text-slate-950 font-mono">
                   Live
+                <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-md bg-emerald-500 text-white font-mono">
+                  Available
                 </span>
+              </div>
+
+              {/* Direct Yard Hotline */}
+              <a
+                href="tel:7673982156"
+                className="w-full h-12 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs uppercase tracking-wider transition shadow-lg shadow-emerald-500/20 active:scale-98 flex items-center justify-center gap-2"
+              >
+                <Phone className="w-4 h-4" />
+                <span>Call Yard Directly: 7673982156</span>
+              </a>
+
+              <div className="relative flex items-center justify-center">
+                <div className="border-t border-white/10 w-full" />
+                <span className="bg-[#0B192C] px-3 text-[10px] uppercase font-bold text-slate-400 tracking-wider">or send message</span>
               </div>
 
               {bidSuccess ? (
                 <div className="p-5 bg-emerald-950/80 border border-emerald-500/40 rounded-2xl text-center space-y-3">
                   <CheckCircle className="w-10 h-10 text-emerald-400 mx-auto" />
                   <h4 className="font-bold text-white text-base">Enquiry & Bid Received!</h4>
+                  <h4 className="font-bold text-white text-base">Enquiry Received!</h4>
                   <p className="text-xs text-emerald-200 leading-relaxed">{bidSuccess}</p>
                   <button
                     type="button"
                     onClick={() => setBidSuccess(null)}
                     className="text-xs font-bold text-amber-300 hover:underline pt-2 block mx-auto"
+                    className="text-xs font-bold text-cyan-300 hover:underline pt-2 block mx-auto"
                   >
                     Submit another online enquiry
+                    Send another enquiry
                   </button>
                 </div>
               ) : (
@@ -460,6 +490,7 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                         value={bidderName}
                         onChange={(e) => setBidderName(e.target.value)}
                         className="w-full h-11 px-3.5 bg-slate-800/90 border border-slate-700 rounded-xl text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-amber-400"
+                        className="w-full h-11 px-3.5 bg-slate-800/90 border border-slate-700 rounded-xl text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-cyan-400"
                       />
                     </div>
                     <div>
@@ -470,6 +501,16 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                         value={bidderPhone}
                         onChange={(e) => setBidderPhone(e.target.value)}
                         className="w-full h-11 px-3.5 bg-slate-800/90 border border-slate-700 rounded-xl text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-amber-400 font-mono"
+                        className="w-full h-11 px-3.5 bg-slate-800/90 border border-slate-700 rounded-xl text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 font-mono"
+                      />
+                    </div>
+                    <div>
+                      <textarea
+                        rows={2}
+                        placeholder="Notes or questions for the yard..."
+                        value={bidderNotes}
+                        onChange={(e) => setBidderNotes(e.target.value)}
+                        className="w-full p-3 bg-slate-800/90 border border-slate-700 rounded-xl text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 resize-none"
                       />
                     </div>
                   </div>
@@ -478,13 +519,17 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
                     type="submit"
                     disabled={submittingBid}
                     className="w-full h-12 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-black text-xs uppercase tracking-wider transition shadow-lg shadow-amber-500/20 active:scale-98 disabled:opacity-50 flex items-center justify-center gap-2"
+                    className="w-full h-12 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xs uppercase tracking-wider transition shadow-lg shadow-blue-500/20 active:scale-98 disabled:opacity-50 flex items-center justify-center gap-2"
                   >
                     {submittingBid ? (
                       <span>Submitting Bid...</span>
+                      <span>Sending Enquiry...</span>
                     ) : (
                       <>
                         <Gavel className="w-4 h-4" />
                         <span>Submit an online enquiry</span>
+                        <Send className="w-4 h-4" />
+                        <span>Send Yard Enquiry</span>
                       </>
                     )}
                   </button>
@@ -534,11 +579,11 @@ export const VehicleDetailPage: React.FC<VehicleDetailPageProps> = ({
         </div>
 
         <a
-          href="#bidding-section"
+          href="#enquiry-section"
           className="h-11 px-5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs flex items-center gap-2 shadow-md active:scale-95"
         >
-          <Gavel className="w-4 h-4" />
-          <span>Submit an online enquiry</span>
+          <Phone className="w-4 h-4" />
+          <span>Contact Yard Now</span>
         </a>
       </div>
     </div>

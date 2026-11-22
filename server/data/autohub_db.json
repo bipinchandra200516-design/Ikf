@@ -2,15 +2,15 @@
   "settings": {
     "brand_name": "AutoHub",
     "tagline": "AutoHub — Multi-Category Vehicle Marketplace",
-    "phone": "1800-309-3090",
-    "whatsapp_number": "919705305477",
+    "phone": "7673982156",
+    "whatsapp_number": "917673982156",
     "email": "contact@autohub.com",
     "address": "AutoHub Pan-India Yard & Branch Network",
     "default_price_label": "Price",
     "public_show_registration": true,
     "public_show_yard_name": true,
     "hero_headline": "Certified Pre-Owned & Commercial Vehicle Inventory",
-    "hero_subtext": "Direct yard purchases and transparent bidding powered by AutoHub Marketplace."
+    "hero_subtext": "Direct yard purchases and verified inventory powered by AutoHub Marketplace."
   },
   "status_mappings": [
     {
@@ -96,7 +96,7 @@
       "public_price_label": "NA",
       "branch_location": "Suryapet",
       "yard_name": "SHIVA SAI PARKING YARD KODAD",
-      "internal_yard_contact": "9948238274",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "GOPAGANI  SANDEEP",
       "internal_aging_days": 56,
       "internal_chassis_number": "MB1AA22E2MRNT3239",
@@ -106,9 +106,10 @@
       "internal_seized_on": "46259.4847222222",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2021 Ashok Leyland Dost available for bidding and purchase at Suryapet branch / SHIVA SAI PARKING YARD KODAD. Verified chassis: MB1AA22E2MRNT3239.",
+      "public_description": "Certified 2021 Ashok Leyland Dost available for direct yard inspection and purchase at Suryapet branch / SHIVA SAI PARKING YARD KODAD. Verified chassis: MB1AA22E2MRNT3239.",
       "created_at": "2026-10-25T00:19:11.887Z",
-      "updated_at": "2026-11-19T13:31:52.650Z"
+      "updated_at": "2026-11-19T13:31:52.650Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-377229",
@@ -127,7 +128,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VALLEPU  SRINIVAS",
       "internal_aging_days": 57,
       "internal_chassis_number": "MBHEWB22SMK795771",
@@ -137,9 +138,10 @@
       "internal_seized_on": "46258.6777777778",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2021 Maruti Suzuki Baleno available for bidding and purchase at Uppal branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MBHEWB22SMK795771.",
+      "public_description": "Certified 2021 Maruti Suzuki Baleno available for direct yard inspection and purchase at Uppal branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MBHEWB22SMK795771.",
       "created_at": "2026-10-25T01:19:15.453Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-321906",
@@ -158,7 +160,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "CHINTHAKUNTA RAMAKRISHNA",
       "internal_aging_days": 48,
       "internal_chassis_number": "MA1XK2XKXM6E47021",
@@ -168,9 +170,10 @@
       "internal_seized_on": "46267.8229166667",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2021 Mahindra Bolero available for bidding and purchase at Gadwal branch / Shriram Automall Patancheru. Verified chassis: MA1XK2XKXM6E47021.",
+      "public_description": "Certified 2021 Mahindra Bolero available for direct yard inspection and purchase at Gadwal branch / Shriram Automall Patancheru. Verified chassis: MA1XK2XKXM6E47021.",
       "created_at": "2026-10-25T02:19:18.763Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-264641",
@@ -189,7 +192,7 @@
       "public_price_label": "NA",
       "branch_location": "L B Nagar (Hyd)",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "NARESH KUMAR DUBBAKA",
       "internal_aging_days": 48,
       "internal_chassis_number": "MA3EJKD1S00C64888LL",
@@ -199,9 +202,10 @@
       "internal_seized_on": "46267.7895833333",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2021 Maruti Suzuki Swift available for bidding and purchase at L B Nagar (Hyd) branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA3EJKD1S00C64888LL.",
+      "public_description": "Certified 2021 Maruti Suzuki Swift available for direct yard inspection and purchase at L B Nagar (Hyd) branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA3EJKD1S00C64888LL.",
       "created_at": "2026-10-25T03:19:19.638Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365474",
@@ -220,7 +224,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "Shriram Automall Warangal Warangal",
-      "internal_yard_contact": "9701662038",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "JAHINGHEER .",
       "internal_aging_days": 173,
       "internal_chassis_number": "MA1ZP2GLKE3H44698",
@@ -230,9 +234,10 @@
       "internal_seized_on": "46142.5284722222",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2014 M&M MAXI TRUCK available for bidding and purchase at Gadwal branch / SHRIRAM AUTOMALL/KURNOOL KURNOOL. Verified chassis: MA1ZP2GLKE3H44698.",
+      "public_description": "Certified 2014 M&M MAXI TRUCK available for direct yard inspection and purchase at Gadwal branch / SHRIRAM AUTOMALL/KURNOOL KURNOOL. Verified chassis: MA1ZP2GLKE3H44698.",
       "created_at": "2026-10-25T04:19:20.148Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-325061",
@@ -251,7 +256,7 @@
       "public_price_label": "NA",
       "branch_location": "Miryalaguda",
       "yard_name": "Shriram Yard Khammam Khammam",
-      "internal_yard_contact": "9959769191",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "ANGOTU  SURESH",
       "internal_aging_days": 54,
       "internal_chassis_number": "MA3FJEB1S00885112AG",
@@ -261,9 +266,10 @@
       "internal_seized_on": "46261.2756944444",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2016 MARUTI MARUTI available for bidding and purchase at Miryalaguda branch / Shriram Automall Miryalguda Miryalaguda. Verified chassis: MA3FJEB1S00885112AG.",
+      "public_description": "Certified 2016 MARUTI MARUTI available for direct yard inspection and purchase at Miryalaguda branch / Shriram Automall Miryalguda Miryalaguda. Verified chassis: MA3FJEB1S00885112AG.",
       "created_at": "2026-10-25T05:19:23.417Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-364805",
@@ -282,7 +288,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "AKULA VINOD KUMAR",
       "internal_aging_days": 40,
       "internal_chassis_number": "MA3EWB62SJJ576288",
@@ -292,9 +298,10 @@
       "internal_seized_on": "46275.5541666667",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2018 Maruti Suzuki Baleno available for bidding and purchase at Warangal branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MA3EWB62SJJ576288.",
+      "public_description": "Certified 2018 Maruti Suzuki Baleno available for direct yard inspection and purchase at Warangal branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MA3EWB62SJJ576288.",
       "created_at": "2026-10-25T06:19:26.683Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-353194",
@@ -313,7 +320,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "SHIVA SAI PARKING YARD KODAD",
-      "internal_yard_contact": "9948238274",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "GOGULA LINGARAJU",
       "internal_aging_days": 50,
       "internal_chassis_number": "MC2ESHRC0LH179124",
@@ -323,9 +330,10 @@
       "internal_seized_on": "46265.7118055556",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2020 Eicher PRO 21.14 available for bidding and purchase at Kodada branch / SHIVA SAI PARKING YARD KODAD. Verified chassis: MC2ESHRC0LH179124.",
+      "public_description": "Certified 2020 Eicher PRO 21.14 available for direct yard inspection and purchase at Kodada branch / SHIVA SAI PARKING YARD KODAD. Verified chassis: MC2ESHRC0LH179124.",
       "created_at": "2026-10-25T07:19:27.415Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365145",
@@ -344,7 +352,7 @@
       "public_price_label": "NA",
       "branch_location": "Siddipet",
       "yard_name": "R R PARKING  SIDDIPET",
-      "internal_yard_contact": "9502284674",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "PASULA DEVA RAJU",
       "internal_aging_days": 40,
       "internal_chassis_number": "MC2H2JRC0JE136258",
@@ -354,9 +362,10 @@
       "internal_seized_on": "46275.8402777778",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2018 Eicher PRO 3014 J available for bidding and purchase at Siddipet branch / R R PARKING  SIDDIPET. Verified chassis: MC2H2JRC0JE136258.",
+      "public_description": "Certified 2018 Eicher PRO 3014 J available for direct yard inspection and purchase at Siddipet branch / R R PARKING  SIDDIPET. Verified chassis: MC2H2JRC0JE136258.",
       "created_at": "2026-10-25T08:19:30.461Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-325056",
@@ -375,7 +384,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "SRINIVASA STOCK YARD MAHBUBNAGAR",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "GADDAM RAMULU",
       "internal_aging_days": 238,
       "internal_chassis_number": "WSCG43606174667",
@@ -384,10 +393,11 @@
       "source_image_url": "https://aiv3portal.autoinspekt.com/report/downloadimagereport/MzAyNjA1MDg2NA==/ZW5jb2RlZF9pZA==",
       "internal_seized_on": "46077.5895833333",
       "publication_status": "unpublished",
-      "availability_status": "sold",
-      "public_description": "Certified 2017 Swaraj 744 available for bidding and purchase at Gadwal branch / SRINIVASA STOCK YARD MAHBUBNAGAR. Verified chassis: WSCG43606174667.",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2017 Swaraj 744 available for direct yard inspection and purchase at Gadwal branch / SRINIVASA STOCK YARD MAHBUBNAGAR. Verified chassis: WSCG43606174667.",
       "created_at": "2026-10-25T09:19:32.241Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-363752",
@@ -406,7 +416,7 @@
       "public_price_label": "NA",
       "branch_location": "Karimnagar",
       "yard_name": "Shriram Automall Karimnagar Karimnagar",
-      "internal_yard_contact": "9849220078",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KANTHALA THIRUPATHI REDDY",
       "internal_aging_days": 17,
       "internal_chassis_number": "MA3FJEB1S00841856KF",
@@ -415,10 +425,11 @@
       "source_image_url": "",
       "internal_seized_on": "46298.4590277778",
       "publication_status": "unpublished",
-      "availability_status": "sold",
-      "public_description": "Certified 2015 Maruti Suzuki Swift available for bidding and purchase at Karimnagar branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MA3FJEB1S00841856KF.",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2015 Maruti Suzuki Swift available for direct yard inspection and purchase at Karimnagar branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MA3FJEB1S00841856KF.",
       "created_at": "2026-10-25T10:19:34.293Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-381586",
@@ -437,7 +448,7 @@
       "public_price_label": "NA",
       "branch_location": "Nizamabad",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MANGLARAM  SAILU",
       "internal_aging_days": 35,
       "internal_chassis_number": "WZCA40922190012",
@@ -447,9 +458,10 @@
       "internal_seized_on": "46280.3805555556",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2018 Swaraj SWARAJ 744 FE available for bidding and purchase at Nizamabad branch / Shriram Automall Nizamabad Nizamabad. Verified chassis: WZCA40922190012.",
+      "public_description": "Certified 2018 Swaraj SWARAJ 744 FE available for direct yard inspection and purchase at Nizamabad branch / Shriram Automall Nizamabad Nizamabad. Verified chassis: WZCA40922190012.",
       "created_at": "2026-10-25T11:19:34.293Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365269",
@@ -468,7 +480,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "SRI SAI SRINIVASA TRUCK YARD KODADA",
-      "internal_yard_contact": "9705305477",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VEMULA VENKANNA",
       "internal_aging_days": 105,
       "internal_chassis_number": "MAT541109J1F20978",
@@ -478,9 +490,10 @@
       "internal_seized_on": "46210.7277777778",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2018 Tata Motors 3718 available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MAT541109J1F20978.",
+      "public_description": "Certified 2018 Tata Motors 3718 available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MAT541109J1F20978.",
       "created_at": "2026-10-25T12:19:35.997Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365568",
@@ -499,7 +512,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Shriram Automall Warangal Warangal",
-      "internal_yard_contact": "9701662038",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MOHAMMED  GOUSEKHAN",
       "internal_aging_days": 91,
       "internal_chassis_number": "MEERBC008L8055482",
@@ -509,9 +522,10 @@
       "internal_seized_on": "46224.5729166667",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2020 RENAULT TRIBER RXZ MT available for bidding and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MEERBC008L8055482.",
+      "public_description": "Certified 2020 RENAULT TRIBER RXZ MT available for direct yard inspection and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MEERBC008L8055482.",
       "created_at": "2026-10-25T13:19:40.859Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-377524",
@@ -530,7 +544,7 @@
       "public_price_label": "NA",
       "branch_location": "Kothagudem",
       "yard_name": "KV SUBBARAO PARKING YARD Khammam",
-      "internal_yard_contact": "9394702463",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BUDDULA  PRAVEEN",
       "internal_aging_days": 40,
       "internal_chassis_number": "MB1AA22E4PRNE2332",
@@ -540,9 +554,10 @@
       "internal_seized_on": "46275.3388888889",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2023 Ashok Leyland Dost available for bidding and purchase at Kothagudem branch / KV SUBBARAO PARKING YARD Khammam. Verified chassis: MB1AA22E4PRNE2332.",
+      "public_description": "Certified 2023 Ashok Leyland Dost available for direct yard inspection and purchase at Kothagudem branch / KV SUBBARAO PARKING YARD Khammam. Verified chassis: MB1AA22E4PRNE2332.",
       "created_at": "2026-10-25T14:19:45.308Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-251933",
@@ -561,7 +576,7 @@
       "public_price_label": "NA",
       "branch_location": "Chanda Nagar",
       "yard_name": "SR PARKING YARD MIRYALAGUDA",
-      "internal_yard_contact": "9949003131",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MOHAMMAD GHOUSE",
       "internal_aging_days": 109,
       "internal_chassis_number": "MAT466388E3C05199",
@@ -571,9 +586,10 @@
       "internal_seized_on": "46206.6680555556",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2014 Tata Motors 3118 available for bidding and purchase at Chanda Nagar branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MAT466388E3C05199.",
+      "public_description": "Certified 2014 Tata Motors 3118 available for direct yard inspection and purchase at Chanda Nagar branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MAT466388E3C05199.",
       "created_at": "2026-10-25T15:19:48.723Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-381388",
@@ -592,7 +608,7 @@
       "public_price_label": "NA",
       "branch_location": "Hyderabad",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "NATTALA NAGARAJU GOUD",
       "internal_aging_days": 53,
       "internal_chassis_number": "MB1KADYD7GPBU4730",
@@ -602,9 +618,10 @@
       "internal_seized_on": "46262.5368055556",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2016 AL 3118 available for bidding and purchase at Hyderabad branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1KADYD7GPBU4730.",
+      "public_description": "Certified 2016 AL 3118 available for direct yard inspection and purchase at Hyderabad branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1KADYD7GPBU4730.",
       "created_at": "2026-10-25T16:19:51.014Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-315091",
@@ -623,7 +640,7 @@
       "public_price_label": "NA",
       "branch_location": "Ecil",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "TUKARAM  BEGARI",
       "internal_aging_days": 32,
       "internal_chassis_number": "MAT626241JKH83638",
@@ -633,9 +650,10 @@
       "internal_seized_on": "46283.8131944444",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2018 TIAGO XM 1.2 RTN available for bidding and purchase at Ecil branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MAT626241JKH83638.",
+      "public_description": "Certified 2018 TIAGO XM 1.2 RTN available for direct yard inspection and purchase at Ecil branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MAT626241JKH83638.",
       "created_at": "2026-10-25T17:19:55.329Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-199756",
@@ -654,7 +672,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "SRINIVASA STOCK YARD MAHBUBNAGAR",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SADU KUMARASWAMY",
       "internal_aging_days": 81,
       "internal_chassis_number": "MB1AA22E0CRY07343",
@@ -664,9 +682,10 @@
       "internal_seized_on": "46234.5013888889",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2012 Ashok Leyland Dost available for bidding and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MB1AA22E0CRY07343.",
+      "public_description": "Certified 2012 Ashok Leyland Dost available for direct yard inspection and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MB1AA22E0CRY07343.",
       "created_at": "2026-10-25T18:19:55.846Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-343785",
@@ -685,7 +704,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "SRINIVASA STOCK YARD",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KETHAVATH RAJU",
       "internal_aging_days": 60,
       "internal_chassis_number": "MA3FSEB1S00527186DG",
@@ -695,9 +714,10 @@
       "internal_seized_on": "46255.5055555556",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2016 Maruti Suzuki Swift available for bidding and purchase at Gadwal branch / SRINIVASA STOCK YARD. Verified chassis: MA3FSEB1S00527186DG.",
+      "public_description": "Certified 2016 Maruti Suzuki Swift available for direct yard inspection and purchase at Gadwal branch / SRINIVASA STOCK YARD. Verified chassis: MA3FSEB1S00527186DG.",
       "created_at": "2026-10-25T19:19:57.680Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365032",
@@ -716,7 +736,7 @@
       "public_price_label": "NA",
       "branch_location": "Suryapet",
       "yard_name": "SRI SAI SRINIVASA TRUCK YARD KODADA",
-      "internal_yard_contact": "9705305477",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MISALA  YALLAIAH",
       "internal_aging_days": 106,
       "internal_chassis_number": "MAT535001HYD06927",
@@ -726,9 +746,10 @@
       "internal_seized_on": "46209.7465277778",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2017 Tata Motors ACE available for bidding and purchase at Suryapet branch / SHIVA SAI PARKING YARD. Verified chassis: MAT535001HYD06927.",
+      "public_description": "Certified 2017 Tata Motors ACE available for direct yard inspection and purchase at Suryapet branch / SHIVA SAI PARKING YARD. Verified chassis: MAT535001HYD06927.",
       "created_at": "2026-10-25T20:19:59.688Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-314847",
@@ -747,7 +768,7 @@
       "public_price_label": "NA",
       "branch_location": "Miryalaguda",
       "yard_name": "Shriram Automall Miryalguda Miryalaguda",
-      "internal_yard_contact": "9948664611",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MANDALI  THIRUPATHAIAH",
       "internal_aging_days": 76,
       "internal_chassis_number": "MAT624051FLA04166",
@@ -757,9 +778,10 @@
       "internal_seized_on": "46239.3354166667",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2015 Tata Motors ZEST available for bidding and purchase at Miryalaguda branch / Shriram Automall Miryalguda Miryalaguda. Verified chassis: MAT624051FLA04166.",
+      "public_description": "Certified 2015 Tata Motors ZEST available for direct yard inspection and purchase at Miryalaguda branch / Shriram Automall Miryalguda Miryalaguda. Verified chassis: MAT624051FLA04166.",
       "created_at": "2026-10-25T21:20:03.641Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-234536",
@@ -778,7 +800,7 @@
       "public_price_label": "NA",
       "branch_location": "L B Nagar (Hyd)",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "DINDU  PRAKASH GOUD",
       "internal_aging_days": 26,
       "internal_chassis_number": "MDHBDAN17C4012669",
@@ -788,9 +810,10 @@
       "internal_seized_on": "46289.6902777778",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2012 NISSAN.SUNNY XL available for bidding and purchase at L B Nagar (Hyd) branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MDHBDAN17C4012669.",
+      "public_description": "Certified 2012 NISSAN.SUNNY XL available for direct yard inspection and purchase at L B Nagar (Hyd) branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MDHBDAN17C4012669.",
       "created_at": "2026-10-25T22:20:05.728Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-361522",
@@ -809,7 +832,7 @@
       "public_price_label": "NA",
       "branch_location": "Nizamabad",
       "yard_name": "Shriram Automall Miryalguda Miryalaguda",
-      "internal_yard_contact": "9948664611",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VANGARI  VILAS",
       "internal_aging_days": 82,
       "internal_chassis_number": "MAT535051JZJ54812",
@@ -819,9 +842,10 @@
       "internal_seized_on": "46233.4694444444",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2018 Tata Motors ACE available for bidding and purchase at Nizamabad branch / Shriram Automall Nizamabad Nizamabad. Verified chassis: MAT535051JZJ54812.",
+      "public_description": "Certified 2018 Tata Motors ACE available for direct yard inspection and purchase at Nizamabad branch / Shriram Automall Nizamabad Nizamabad. Verified chassis: MAT535051JZJ54812.",
       "created_at": "2026-10-25T23:20:06.652Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-368797",
@@ -840,7 +864,7 @@
       "public_price_label": "NA",
       "branch_location": "Nirmal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SABBIDI  NAVEEN",
       "internal_aging_days": 25,
       "internal_chassis_number": "MAT535001JZG47855",
@@ -850,9 +874,10 @@
       "internal_seized_on": "46290.5326388889",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2018 Tata Motors ACE available for bidding and purchase at Nirmal branch / Shriram Automall Nizamabad. Verified chassis: MAT535001JZG47855.",
+      "public_description": "Certified 2018 Tata Motors ACE available for direct yard inspection and purchase at Nirmal branch / Shriram Automall Nizamabad. Verified chassis: MAT535001JZG47855.",
       "created_at": "2026-10-26T00:20:08.715Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-319114",
@@ -871,7 +896,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "CHAGAPURAM  PRASAD",
       "internal_aging_days": 71,
       "internal_chassis_number": "MB1AA22EXFRT14628",
@@ -881,9 +906,10 @@
       "internal_seized_on": "46244.8826388889",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2015 Ashok Leyland Dost available for bidding and purchase at Gadwal branch / RK AUTO PARKING YARD. Verified chassis: MB1AA22EXFRT14628.",
+      "public_description": "Certified 2015 Ashok Leyland Dost available for direct yard inspection and purchase at Gadwal branch / RK AUTO PARKING YARD. Verified chassis: MB1AA22EXFRT14628.",
       "created_at": "2026-10-26T01:20:12.897Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-384527",
@@ -902,7 +928,7 @@
       "public_price_label": "NA",
       "branch_location": "Bhuvanagiri",
       "yard_name": "SRINIVASA STOCK YARD MAHBUBNAGAR",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "CHOKKAPURAM BALA KRISHNA",
       "internal_aging_days": 20,
       "internal_chassis_number": "MA3ERLF1S00734863GK",
@@ -910,11 +936,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46295.7284722222",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2019 MARUTI EECO 7STR available for bidding and purchase at Bhuvanagiri branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MA3ERLF1S00734863GK.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2019 MARUTI EECO 7STR available for direct yard inspection and purchase at Bhuvanagiri branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MA3ERLF1S00734863GK.",
       "created_at": "2026-10-26T02:20:16.521Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-325063",
@@ -933,7 +960,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "KV SUBBARAO PARKING YARD Khammam",
-      "internal_yard_contact": "9394702463",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BORRA  MAHESH",
       "internal_aging_days": 203,
       "internal_chassis_number": "WYTK79628121057",
@@ -941,11 +968,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "https://aiv3portal.autoinspekt.com/report/downloadimagereport/MzAyNjM4MTcyMA==/ZW5jb2RlZF9pZA==",
       "internal_seized_on": "46112.7145833333",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2016 Swaraj 843 available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: WYTK79628121057.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2016 Swaraj 843 available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: WYTK79628121057.",
       "created_at": "2026-10-26T03:20:16.522Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-355424",
@@ -964,7 +992,7 @@
       "public_price_label": "NA",
       "branch_location": "Suryapet",
       "yard_name": "Shriram Yard Khammam Khammam",
-      "internal_yard_contact": "9959769191",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "JARUPULA  CHANTI",
       "internal_aging_days": 166,
       "internal_chassis_number": "MB1AA22E2FRY04349",
@@ -974,9 +1002,10 @@
       "internal_seized_on": "46149.7263888889",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2015 Ashok Leyland Dost available for bidding and purchase at Suryapet branch / Shriram Yard Khammam Khammam. Verified chassis: MB1AA22E2FRY04349.",
+      "public_description": "Certified 2015 Ashok Leyland Dost available for direct yard inspection and purchase at Suryapet branch / Shriram Yard Khammam Khammam. Verified chassis: MB1AA22E2FRY04349.",
       "created_at": "2026-10-26T04:20:18.654Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-319012",
@@ -995,7 +1024,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Shriram Automall Nizamabad",
-      "internal_yard_contact": "9003286493",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "JANNU  KIRAN",
       "internal_aging_days": 29,
       "internal_chassis_number": "MA1XK2WJXH2H55821",
@@ -1005,9 +1034,10 @@
       "internal_seized_on": "46286.69375",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2017 Mahindra Bolero available for bidding and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MA1XK2WJXH2H55821.",
+      "public_description": "Certified 2017 Mahindra Bolero available for direct yard inspection and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MA1XK2WJXH2H55821.",
       "created_at": "2026-10-26T05:20:23.812Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-377443",
@@ -1026,7 +1056,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Shriram Automall Warangal Warangal",
-      "internal_yard_contact": "9701662038",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BANDARI  SURESH",
       "internal_aging_days": 96,
       "internal_chassis_number": "MB1AA22E3ERR86755",
@@ -1036,9 +1066,10 @@
       "internal_seized_on": "46219.3888888889",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2014 Ashok Leyland Dost available for bidding and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MB1AA22E3ERR86755.",
+      "public_description": "Certified 2014 Ashok Leyland Dost available for direct yard inspection and purchase at Warangal branch / Shriram Automall Warangal Warangal. Verified chassis: MB1AA22E3ERR86755.",
       "created_at": "2026-10-26T06:20:24.498Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-367219",
@@ -1057,7 +1088,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "Shriram Automall Patancheru",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SHAIK NASEER PASHA",
       "internal_aging_days": 82,
       "internal_chassis_number": "MB1AA22E9GRF22794",
@@ -1067,9 +1098,10 @@
       "internal_seized_on": "46233.8229166667",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2016 Ashok Leyland Dost available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E9GRF22794.",
+      "public_description": "Certified 2016 Ashok Leyland Dost available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E9GRF22794.",
       "created_at": "2026-10-26T07:20:26.532Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-366238",
@@ -1088,7 +1120,7 @@
       "public_price_label": "NA",
       "branch_location": "Kothagudem",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SHAIK  KARIMULLA",
       "internal_aging_days": 40,
       "internal_chassis_number": "MAT624004KPN04150",
@@ -1098,9 +1130,10 @@
       "internal_seized_on": "46275.3361111111",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2019 Tata Motors ZEST available for bidding and purchase at Kothagudem branch / Shriram Yard Khammam Khammam. Verified chassis: MAT624004KPN04150.",
+      "public_description": "Certified 2019 Tata Motors ZEST available for direct yard inspection and purchase at Kothagudem branch / Shriram Yard Khammam Khammam. Verified chassis: MAT624004KPN04150.",
       "created_at": "2026-10-26T08:20:31.171Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-381398",
@@ -1119,7 +1152,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "SRINIVASA STOCK YARD",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "CHINNA SATHEESH",
       "internal_aging_days": 13,
       "internal_chassis_number": "MA3FJEB1S00758103FF",
@@ -1128,10 +1161,11 @@
       "source_image_url": "",
       "internal_seized_on": "46302.5479166667",
       "publication_status": "unpublished",
-      "availability_status": "sold",
-      "public_description": "Certified 2015 Maruti Suzuki Swift available for bidding and purchase at Gadwal branch / SRINIVASA STOCK YARD. Verified chassis: MA3FJEB1S00758103FF.",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2015 Maruti Suzuki Swift available for direct yard inspection and purchase at Gadwal branch / SRINIVASA STOCK YARD. Verified chassis: MA3FJEB1S00758103FF.",
       "created_at": "2026-10-26T09:20:31.644Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-326375",
@@ -1150,7 +1184,7 @@
       "public_price_label": "NA",
       "branch_location": "Kompally",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SURESH THADI",
       "internal_aging_days": 39,
       "internal_chassis_number": "MC2F7HRC0EL097198",
@@ -1160,9 +1194,10 @@
       "internal_seized_on": "46276.4743055556",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2014 Eicher _11.10 available for bidding and purchase at Kompally branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MC2F7HRC0EL097198.",
+      "public_description": "Certified 2014 Eicher _11.10 available for direct yard inspection and purchase at Kompally branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MC2F7HRC0EL097198.",
       "created_at": "2026-10-26T10:20:31.644Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-361317",
@@ -1181,7 +1216,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "SRI SAI SRINIVASA TRUCK YARD KODADA",
-      "internal_yard_contact": "9705305477",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BANOTH  SRIHARI",
       "internal_aging_days": 244,
       "internal_chassis_number": "MA1ZN2GHKE1L80859",
@@ -1191,9 +1226,10 @@
       "internal_seized_on": "46071.6284722222",
       "publication_status": "unpublished",
       "availability_status": "unavailable",
-      "public_description": "Certified 2014 Mahindra Bolero available for bidding and purchase at Warangal branch / Shriram Yard Khammam Khammam. Verified chassis: MA1ZN2GHKE1L80859.",
+      "public_description": "Certified 2014 Mahindra Bolero available for direct yard inspection and purchase at Warangal branch / Shriram Yard Khammam Khammam. Verified chassis: MA1ZN2GHKE1L80859.",
       "created_at": "2026-10-26T11:20:35.833Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-370045",
@@ -1212,7 +1248,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "Shriram Automall Karimnagar Karimnagar",
-      "internal_yard_contact": "9849220078",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MANGALAMPALLI NAGA RANI",
       "internal_aging_days": 159,
       "internal_chassis_number": "MB1AA22E3GRF18482",
@@ -1222,9 +1258,10 @@
       "internal_seized_on": "46156.6951388889",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2016 Ashok Leyland Dost available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: MB1AA22E3GRF18482.",
+      "public_description": "Certified 2016 Ashok Leyland Dost available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: MB1AA22E3GRF18482.",
       "created_at": "2026-10-26T12:20:37.856Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-356693",
@@ -1243,7 +1280,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Yard Khammam",
-      "internal_yard_contact": "9959769191",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "NIMMALA  ANJANEYULU",
       "internal_aging_days": 67,
       "internal_chassis_number": "MB1AA22E0HRG51637",
@@ -1253,9 +1290,10 @@
       "internal_seized_on": "46248.4263888889",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2016 Ashok Leyland Dost available for bidding and purchase at Nalgonda branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MB1AA22E0HRG51637.",
+      "public_description": "Certified 2016 Ashok Leyland Dost available for direct yard inspection and purchase at Nalgonda branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MB1AA22E0HRG51637.",
       "created_at": "2026-10-26T13:20:43.120Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-358920",
@@ -1274,7 +1312,7 @@
       "public_price_label": "NA",
       "branch_location": "Mahaboob Nagar",
       "yard_name": "SRINIVASA STOCK YARD",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VENKATESH  .",
       "internal_aging_days": 109,
       "internal_chassis_number": "MA1ZT2GLKG2B59855",
@@ -1284,9 +1322,10 @@
       "internal_seized_on": "46206.8166666667",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2016 Mahindra Bolero available for bidding and purchase at Mahaboob Nagar branch / SRINIVASA STOCK YARD. Verified chassis: MA1ZT2GLKG2B59855.",
+      "public_description": "Certified 2016 Mahindra Bolero available for direct yard inspection and purchase at Mahaboob Nagar branch / SRINIVASA STOCK YARD. Verified chassis: MA1ZT2GLKG2B59855.",
       "created_at": "2026-10-26T14:20:46.373Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365125",
@@ -1305,7 +1344,7 @@
       "public_price_label": "NA",
       "branch_location": "Bhuvanagiri",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "DHARAVATH  SHANKAR",
       "internal_aging_days": 41,
       "internal_chassis_number": "MB1AA22E7HRV86377",
@@ -1315,9 +1354,10 @@
       "internal_seized_on": "46274.5048611111",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2017 Ashok Leyland Dost available for bidding and purchase at Bhuvanagiri branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1AA22E7HRV86377.",
+      "public_description": "Certified 2017 Ashok Leyland Dost available for direct yard inspection and purchase at Bhuvanagiri branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1AA22E7HRV86377.",
       "created_at": "2026-10-26T15:20:49.807Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-314082",
@@ -1336,7 +1376,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "Shriram Automall Nizamabad Nizamabad",
-      "internal_yard_contact": "9003286493",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KUKKALA  LAKSHMANNA",
       "internal_aging_days": 173,
       "internal_chassis_number": "MBNAAAJXAKND02351",
@@ -1346,9 +1386,10 @@
       "internal_seized_on": "46142.5222222222",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2020 ESCORT TRACTOR available for bidding and purchase at Gadwal branch / SHRIRAM AUTOMALL/KURNOOL KURNOOL. Verified chassis: MBNAAAJXAKND02351.",
+      "public_description": "Certified 2020 ESCORT TRACTOR available for direct yard inspection and purchase at Gadwal branch / SHRIRAM AUTOMALL/KURNOOL KURNOOL. Verified chassis: MBNAAAJXAKND02351.",
       "created_at": "2026-10-26T16:20:54.234Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-331059",
@@ -1367,7 +1408,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VENKTESH  PASUPULA",
       "internal_aging_days": 48,
       "internal_chassis_number": "MB1AA22E0LRK00665",
@@ -1377,9 +1418,10 @@
       "internal_seized_on": "46267.8034722222",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2020 Ashok Leyland Dost available for bidding and purchase at Uppal branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1AA22E0LRK00665.",
+      "public_description": "Certified 2020 Ashok Leyland Dost available for direct yard inspection and purchase at Uppal branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1AA22E0LRK00665.",
       "created_at": "2026-10-26T17:20:54.820Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-352206",
@@ -1398,7 +1440,7 @@
       "public_price_label": "NA",
       "branch_location": "Jagityal",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "JAKKULA  RAMAIAH",
       "internal_aging_days": 262,
       "internal_chassis_number": "MEAAFC55CL1265594",
@@ -1408,9 +1450,10 @@
       "internal_seized_on": "46053.4861111111",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2020 MF 5245 DI PD available for bidding and purchase at Jagityal branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MEAAFC55CL1265594.",
+      "public_description": "Certified 2020 MF 5245 DI PD available for direct yard inspection and purchase at Jagityal branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MEAAFC55CL1265594.",
       "created_at": "2026-10-26T18:20:55.302Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-380714",
@@ -1429,7 +1472,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Automall Warangal Warangal",
-      "internal_yard_contact": "9701662038",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "NIMMANAGOTI  NAGARAJU",
       "internal_aging_days": 40,
       "internal_chassis_number": "MB1AA22E9JRG99045",
@@ -1439,9 +1482,10 @@
       "internal_seized_on": "46275.3444444444",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2018 Ashok Leyland Dost available for bidding and purchase at Nalgonda branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MB1AA22E9JRG99045.",
+      "public_description": "Certified 2018 Ashok Leyland Dost available for direct yard inspection and purchase at Nalgonda branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MB1AA22E9JRG99045.",
       "created_at": "2026-10-26T19:20:55.849Z",
-      "updated_at": "2026-11-19T13:31:52.651Z"
+      "updated_at": "2026-11-19T13:31:52.651Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-330685",
@@ -1460,7 +1504,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "GOUSMOHIDDIN  SHAIK",
       "internal_aging_days": 81,
       "internal_chassis_number": "MB1AA22E5JRH95075",
@@ -1470,9 +1514,10 @@
       "internal_seized_on": "46234.8215277778",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2018 Ashok Leyland Dost available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E5JRH95075.",
+      "public_description": "Certified 2018 Ashok Leyland Dost available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E5JRH95075.",
       "created_at": "2026-10-26T20:20:59.101Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-374184",
@@ -1491,7 +1536,7 @@
       "public_price_label": "NA",
       "branch_location": "Shamshabad",
       "yard_name": "Shriram Automall Miryalguda Miryalaguda",
-      "internal_yard_contact": "9948664611",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VORSU RAVI TEJA",
       "internal_aging_days": 13,
       "internal_chassis_number": "MBHCZFB3SMD101623",
@@ -1499,11 +1544,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46302.4833333333",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2021 Maruti Suzuki Dzire available for bidding and purchase at Shamshabad branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MBHCZFB3SMD101623.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2021 Maruti Suzuki Dzire available for direct yard inspection and purchase at Shamshabad branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MBHCZFB3SMD101623.",
       "created_at": "2026-10-26T21:21:03.390Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-352341",
@@ -1522,7 +1568,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KOTHAGOLLA  SRINIVAS",
       "internal_aging_days": 22,
       "internal_chassis_number": "MA1ZP2TBKG2G54421",
@@ -1530,11 +1576,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46293.7104166667",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2016 Mahindra Bolero available for bidding and purchase at Uppal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA1ZP2TBKG2G54421.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2016 Mahindra Bolero available for direct yard inspection and purchase at Uppal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA1ZP2TBKG2G54421.",
       "created_at": "2026-10-26T22:21:03.390Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-323885",
@@ -1553,7 +1600,7 @@
       "public_price_label": "NA",
       "branch_location": "Khammam",
       "yard_name": "SRINIVASA STOCK YARD",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MADDOJU  LAKSHMI",
       "internal_aging_days": 65,
       "internal_chassis_number": "MB1AA22E6HRB69187",
@@ -1563,9 +1610,10 @@
       "internal_seized_on": "46250.7652777778",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2017 Ashok Leyland Dost available for bidding and purchase at Khammam branch / Shriram Yard Khammam Khammam. Verified chassis: MB1AA22E6HRB69187.",
+      "public_description": "Certified 2017 Ashok Leyland Dost available for direct yard inspection and purchase at Khammam branch / Shriram Yard Khammam Khammam. Verified chassis: MB1AA22E6HRB69187.",
       "created_at": "2026-10-26T23:21:03.390Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-354599",
@@ -1584,7 +1632,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "SRI SAI SRINIVASA TRUCK YARD KODADA",
-      "internal_yard_contact": "9705305477",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "GANTA NAGESWARARAO",
       "internal_aging_days": 118,
       "internal_chassis_number": "Tractor",
@@ -1594,9 +1642,10 @@
       "internal_seized_on": "46197.7604166667",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2023 Swaraj 843 available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: Tractor.",
+      "public_description": "Certified 2023 Swaraj 843 available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: Tractor.",
       "created_at": "2026-10-27T00:21:07.930Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-379571",
@@ -1615,7 +1664,7 @@
       "public_price_label": "NA",
       "branch_location": "Ecil",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "GUNDU MALLA REDDY",
       "internal_aging_days": 29,
       "internal_chassis_number": "MAT617008GNJ03885",
@@ -1625,9 +1674,10 @@
       "internal_seized_on": "46286.8104166667",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2016 Safari Storme VX 4/2 available for bidding and purchase at Ecil branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MAT617008GNJ03885.",
+      "public_description": "Certified 2016 Safari Storme VX 4/2 available for direct yard inspection and purchase at Ecil branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MAT617008GNJ03885.",
       "created_at": "2026-10-27T01:21:12.053Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-329759",
@@ -1646,7 +1696,7 @@
       "public_price_label": "NA",
       "branch_location": "Miryalaguda",
       "yard_name": "SHIVA SAI PARKING YARD",
-      "internal_yard_contact": "9948238274",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "THALLA  VEERASWAMY",
       "internal_aging_days": 202,
       "internal_chassis_number": "MB1AA22E1GRA34990",
@@ -1654,11 +1704,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "https://aiv3portal.autoinspekt.com/report/downloadimagereport/MzAyNjM4MTcxOQ==/ZW5jb2RlZF9pZA==",
       "internal_seized_on": "46113.5868055556",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2016 Ashok Leyland Dost available for bidding and purchase at Miryalaguda branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E1GRA34990.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2016 Ashok Leyland Dost available for direct yard inspection and purchase at Miryalaguda branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E1GRA34990.",
       "created_at": "2026-10-27T02:21:12.875Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-381349",
@@ -1677,7 +1728,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "Shriram Automall Nizamabad Nizamabad",
-      "internal_yard_contact": "9003286493",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BOKKA  ASHOK",
       "internal_aging_days": 60,
       "internal_chassis_number": "MB1AA22E9KRH53235",
@@ -1687,9 +1738,10 @@
       "internal_seized_on": "46255.6673611111",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2019 Ashok Leyland Dost available for bidding and purchase at Kodada branch / Shriram Yard Khammam Khammam. Verified chassis: MB1AA22E9KRH53235.",
+      "public_description": "Certified 2019 Ashok Leyland Dost available for direct yard inspection and purchase at Kodada branch / Shriram Yard Khammam Khammam. Verified chassis: MB1AA22E9KRH53235.",
       "created_at": "2026-10-27T03:21:15.011Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-378122",
@@ -1708,7 +1760,7 @@
       "public_price_label": "NA",
       "branch_location": "Kothagudem",
       "yard_name": "KV SUBBARAO PARKING YARD Khammam",
-      "internal_yard_contact": "9394702463",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BODEPUDI  SESHAGIRIRAO",
       "internal_aging_days": 82,
       "internal_chassis_number": "MB1AA22E6LRYH6498",
@@ -1718,9 +1770,10 @@
       "internal_seized_on": "46233.4645833333",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2020 Ashok Leyland Dost available for bidding and purchase at Kothagudem branch / KV SUBBARAO PARKING YARD Khammam. Verified chassis: MB1AA22E6LRYH6498.",
+      "public_description": "Certified 2020 Ashok Leyland Dost available for direct yard inspection and purchase at Kothagudem branch / KV SUBBARAO PARKING YARD Khammam. Verified chassis: MB1AA22E6LRYH6498.",
       "created_at": "2026-10-27T04:21:18.736Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-368149",
@@ -1739,7 +1792,7 @@
       "public_price_label": "NA",
       "branch_location": "Suryapet",
       "yard_name": "SHIVA SAI PARKING YARD",
-      "internal_yard_contact": "9948238274",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KOTHAPALLY  VENKATESH",
       "internal_aging_days": 125,
       "internal_chassis_number": "MB1AA22E1KRH53858",
@@ -1749,9 +1802,10 @@
       "internal_seized_on": "46190.6951388889",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2019 Ashok Leyland Dost available for bidding and purchase at Suryapet branch / SHIVA SAI PARKING YARD. Verified chassis: MB1AA22E1KRH53858.",
+      "public_description": "Certified 2019 Ashok Leyland Dost available for direct yard inspection and purchase at Suryapet branch / SHIVA SAI PARKING YARD. Verified chassis: MB1AA22E1KRH53858.",
       "created_at": "2026-10-27T05:21:22.697Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-382800",
@@ -1770,7 +1824,7 @@
       "public_price_label": "NA",
       "branch_location": "Vikarabad",
       "yard_name": "Shriram Yard Khammam Khammam",
-      "internal_yard_contact": "9959769191",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "POOLAPALLI  RAJU",
       "internal_aging_days": 113,
       "internal_chassis_number": "MB1AA22E6KRG59359",
@@ -1780,9 +1834,10 @@
       "internal_seized_on": "46202.86875",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2019 Ashok Leyland Dost available for bidding and purchase at Vikarabad branch / Shriram Automall Patancheru. Verified chassis: MB1AA22E6KRG59359.",
+      "public_description": "Certified 2019 Ashok Leyland Dost available for direct yard inspection and purchase at Vikarabad branch / Shriram Automall Patancheru. Verified chassis: MB1AA22E6KRG59359.",
       "created_at": "2026-10-27T06:21:26.752Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-318056",
@@ -1801,7 +1856,7 @@
       "public_price_label": "NA",
       "branch_location": "Chanda Nagar",
       "yard_name": "SRINIVASA STOCK YARD",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "TELU  NARESH",
       "internal_aging_days": 424,
       "internal_chassis_number": "MB1AA22E5LRMH7274",
@@ -1809,11 +1864,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "https://aiv3portal.autoinspekt.com/report/download/MzAxOTM3ODg1/Q1ZSUE8zMDE5Mzc4ODU=/Y29tcHJlc3M=",
       "internal_seized_on": "45891.6798611111",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2020 Ashok Leyland Dost available for bidding and purchase at Chanda Nagar branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1AA22E5LRMH7274.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2020 Ashok Leyland Dost available for direct yard inspection and purchase at Chanda Nagar branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1AA22E5LRMH7274.",
       "created_at": "2026-10-27T07:21:30.695Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-382812",
@@ -1832,7 +1888,7 @@
       "public_price_label": "NA",
       "branch_location": "Suryapet",
       "yard_name": "SHIVA SAI PARKING YARD",
-      "internal_yard_contact": "9948238274",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BANDARU  VENKATESH",
       "internal_aging_days": 94,
       "internal_chassis_number": "MB1AA22EXMRJM3442",
@@ -1842,9 +1898,10 @@
       "internal_seized_on": "46221.7076388889",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2021 Ashok Leyland Dost available for bidding and purchase at Suryapet branch / SHIVA SAI PARKING YARD. Verified chassis: MB1AA22EXMRJM3442.",
+      "public_description": "Certified 2021 Ashok Leyland Dost available for direct yard inspection and purchase at Suryapet branch / SHIVA SAI PARKING YARD. Verified chassis: MB1AA22EXMRJM3442.",
       "created_at": "2026-10-27T08:21:31.974Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-376897",
@@ -1863,7 +1920,7 @@
       "public_price_label": "NA",
       "branch_location": "Karimnagar",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "CHATRAPAL  KRISHNA",
       "internal_aging_days": 32,
       "internal_chassis_number": "MA1ZP2TLKL3E91505",
@@ -1873,9 +1930,10 @@
       "internal_seized_on": "46283.5104166667",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2020 Mahindra Bolero available for bidding and purchase at Karimnagar branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MA1ZP2TLKL3E91505.",
+      "public_description": "Certified 2020 Mahindra Bolero available for direct yard inspection and purchase at Karimnagar branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MA1ZP2TLKL3E91505.",
       "created_at": "2026-10-27T09:21:35.914Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-311701",
@@ -1894,7 +1952,7 @@
       "public_price_label": "NA",
       "branch_location": "Kompally",
       "yard_name": "Shriram Automall Karimnagar Karimnagar",
-      "internal_yard_contact": "9849220078",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BURRA  JAIPAL",
       "internal_aging_days": 48,
       "internal_chassis_number": "MB1AA22EXLRCE9242",
@@ -1904,9 +1962,10 @@
       "internal_seized_on": "46267.7909722222",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2020 Ashok Leyland Dost available for bidding and purchase at Kompally branch / SRINIVASA STOCK YARD MAHBUBNAGAR. Verified chassis: MB1AA22EXLRCE9242.",
+      "public_description": "Certified 2020 Ashok Leyland Dost available for direct yard inspection and purchase at Kompally branch / SRINIVASA STOCK YARD MAHBUBNAGAR. Verified chassis: MB1AA22EXLRCE9242.",
       "created_at": "2026-10-27T10:21:38.943Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-384374",
@@ -1925,7 +1984,7 @@
       "public_price_label": "NA",
       "branch_location": "Madhira",
       "yard_name": "Shriram Yard Khammam",
-      "internal_yard_contact": "9959769191",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "ANNARAPU  NAGARAJU",
       "internal_aging_days": 41,
       "internal_chassis_number": "MB1AA22E4NRMU2331",
@@ -1935,9 +1994,10 @@
       "internal_seized_on": "46274.5722222222",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2022 Ashok Leyland Dost available for bidding and purchase at Madhira branch / Shriram Yard Khammam. Verified chassis: MB1AA22E4NRMU2331.",
+      "public_description": "Certified 2022 Ashok Leyland Dost available for direct yard inspection and purchase at Madhira branch / Shriram Yard Khammam. Verified chassis: MB1AA22E4NRMU2331.",
       "created_at": "2026-10-27T11:21:42.118Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-371560",
@@ -1956,7 +2016,7 @@
       "public_price_label": "NA",
       "branch_location": "Mancherial",
       "yard_name": "Shriram Yard Mancherial Mancherial",
-      "internal_yard_contact": "9866462942",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SEGAM  KISTAIAH",
       "internal_aging_days": 25,
       "internal_chassis_number": "1VY5310EHJA004277",
@@ -1966,9 +2026,10 @@
       "internal_seized_on": "46290.7020833333",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2018 John Deere 5310 available for bidding and purchase at Mancherial branch / Shriram Yard Mancherial Mancherial. Verified chassis: 1VY5310EHJA004277.",
+      "public_description": "Certified 2018 John Deere 5310 available for direct yard inspection and purchase at Mancherial branch / Shriram Yard Mancherial Mancherial. Verified chassis: 1VY5310EHJA004277.",
       "created_at": "2026-10-27T12:21:45.617Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-362209",
@@ -1987,7 +2048,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "RK AUTO PARKING YARD",
-      "internal_yard_contact": "7013416419",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MUDAVATH  NAVEEN",
       "internal_aging_days": 109,
       "internal_chassis_number": "MB1AB42E7MRJL5548",
@@ -1997,9 +2058,10 @@
       "internal_seized_on": "46206.3930555556",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2021 Ashok Leyland Dost available for bidding and purchase at Nalgonda branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MB1AB42E7MRJL5548.",
+      "public_description": "Certified 2021 Ashok Leyland Dost available for direct yard inspection and purchase at Nalgonda branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MB1AB42E7MRJL5548.",
       "created_at": "2026-10-27T13:21:47.626Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-356558",
@@ -2018,7 +2080,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "Shriram Yard Khammam Khammam",
-      "internal_yard_contact": "9959769191",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KATTHI  PICHHAIAH",
       "internal_aging_days": 105,
       "internal_chassis_number": "MB1AA22E8MRDP8988",
@@ -2028,9 +2090,10 @@
       "internal_seized_on": "46210.7319444444",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2021 Ashok Leyland Dost available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E8MRDP8988.",
+      "public_description": "Certified 2021 Ashok Leyland Dost available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AA22E8MRDP8988.",
       "created_at": "2026-10-27T14:21:49.650Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-379382",
@@ -2049,7 +2112,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "SRI SAI SRINIVASA TRUCK YARD KODADA",
-      "internal_yard_contact": "9705305477",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "CHALLA TIRUPATHI RAO",
       "internal_aging_days": 98,
       "internal_chassis_number": "MB1AB42E9NRGZ2577",
@@ -2059,9 +2122,10 @@
       "internal_seized_on": "46217.7298611111",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2022 Ashok Leyland Dost available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AB42E9NRGZ2577.",
+      "public_description": "Certified 2022 Ashok Leyland Dost available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MB1AB42E9NRGZ2577.",
       "created_at": "2026-10-27T15:21:52.122Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-330372",
@@ -2080,7 +2144,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "SRI SAI SRINIVASA TRUCK YARD KODADA",
-      "internal_yard_contact": "9705305477",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "JUMJU SREE HARI BABU",
       "internal_aging_days": 159,
       "internal_chassis_number": "MB1AB42E0MRJM0445",
@@ -2090,9 +2154,10 @@
       "internal_seized_on": "46156.6986111111",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2021 Ashok Leyland Dost available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: MB1AB42E0MRJM0445.",
+      "public_description": "Certified 2021 Ashok Leyland Dost available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD. Verified chassis: MB1AB42E0MRJM0445.",
       "created_at": "2026-10-27T16:21:54.548Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-366068",
@@ -2111,7 +2176,7 @@
       "public_price_label": "NA",
       "branch_location": "Shamshabad",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MABBU  MAHESH",
       "internal_aging_days": 32,
       "internal_chassis_number": "MB1AB42EXNRDB4358",
@@ -2121,9 +2186,10 @@
       "internal_seized_on": "46283.8090277778",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2022 Ashok Leyland Dost available for bidding and purchase at Shamshabad branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MB1AB42EXNRDB4358.",
+      "public_description": "Certified 2022 Ashok Leyland Dost available for direct yard inspection and purchase at Shamshabad branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MB1AB42EXNRDB4358.",
       "created_at": "2026-10-27T17:21:56.609Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365940",
@@ -2142,7 +2208,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "SRINIVASA STOCK YARD",
-      "internal_yard_contact": "9989628954",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "PILLELA SHIVA",
       "internal_aging_days": 47,
       "internal_chassis_number": "MB1AB42E3MREP5217",
@@ -2152,9 +2218,10 @@
       "internal_seized_on": "46268.7069444444",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2021 Ashok Leyland Dost available for bidding and purchase at Gadwal branch / SRINIVASA STOCK YARD. Verified chassis: MB1AB42E3MREP5217.",
+      "public_description": "Certified 2021 Ashok Leyland Dost available for direct yard inspection and purchase at Gadwal branch / SRINIVASA STOCK YARD. Verified chassis: MB1AB42E3MREP5217.",
       "created_at": "2026-10-27T18:21:58.525Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-327816",
@@ -2173,7 +2240,7 @@
       "public_price_label": "NA",
       "branch_location": "Chanda Nagar",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "THANNIR  MAHESH",
       "internal_aging_days": 20,
       "internal_chassis_number": "MA3BNC72SPH660595",
@@ -2181,11 +2248,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46295.7222222222",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2023 MARUTI ERTIGA ZXI available for bidding and purchase at Chanda Nagar branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA3BNC72SPH660595.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2023 MARUTI ERTIGA ZXI available for direct yard inspection and purchase at Chanda Nagar branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA3BNC72SPH660595.",
       "created_at": "2026-10-27T19:22:00.301Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-364786",
@@ -2204,7 +2272,7 @@
       "public_price_label": "NA",
       "branch_location": "Bhuvanagiri",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "PALLEPATI  SATYANARAYANA",
       "internal_aging_days": 98,
       "internal_chassis_number": "MB1AA22E9RRPP8319",
@@ -2214,9 +2282,10 @@
       "internal_seized_on": "46217.7638888889",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2024 Ashok Leyland Dost available for bidding and purchase at Bhuvanagiri branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1AA22E9RRPP8319.",
+      "public_description": "Certified 2024 Ashok Leyland Dost available for direct yard inspection and purchase at Bhuvanagiri branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1AA22E9RRPP8319.",
       "created_at": "2026-10-27T20:22:00.301Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-364172",
@@ -2235,7 +2304,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Shriram Automall Nizamabad Nizamabad",
-      "internal_yard_contact": "9003286493",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BUMA  BHOOMAIAH",
       "internal_aging_days": 12,
       "internal_chassis_number": "MC2C2FRC0FC312445",
@@ -2243,11 +2312,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46303.6597222222",
-      "publication_status": "published",
-      "availability_status": "available",
-      "public_description": "Certified 2015 Eicher _10.90 PRO available for bidding and purchase at Uppal branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MC2C2FRC0FC312445.",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
+      "public_description": "Certified 2015 Eicher _10.90 PRO available for direct yard inspection and purchase at Uppal branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MC2C2FRC0FC312445.",
       "created_at": "2026-10-27T21:22:02.490Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-361958",
@@ -2266,7 +2336,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MIRYALA HARISH",
       "internal_aging_days": 98,
       "internal_chassis_number": "MC2G3HRC0HF130242",
@@ -2276,9 +2346,10 @@
       "internal_seized_on": "46217.6986111111",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2017 Eicher _11.14 available for bidding and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MC2G3HRC0HF130242.",
+      "public_description": "Certified 2017 Eicher _11.14 available for direct yard inspection and purchase at Kodada branch / SRI SAI SRINIVASA TRUCK YARD KODADA. Verified chassis: MC2G3HRC0HF130242.",
       "created_at": "2026-10-27T22:22:02.490Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-314992",
@@ -2297,7 +2368,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Automall Miryalguda Miryalaguda",
-      "internal_yard_contact": "9948664611",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SHAIK  SHAKIRA",
       "internal_aging_days": 33,
       "internal_chassis_number": "MB1NACHDXHPAZ5239",
@@ -2307,9 +2378,10 @@
       "internal_seized_on": "46282.7270833333",
       "publication_status": "unpublished",
       "availability_status": "sold",
-      "public_description": "Certified 2017 SIGNA 3718 TK available for bidding and purchase at Nalgonda branch / Shriram Automall Miryalguda Miryalaguda. Verified chassis: MB1NACHDXHPAZ5239.",
+      "public_description": "Certified 2017 SIGNA 3718 TK available for direct yard inspection and purchase at Nalgonda branch / Shriram Automall Miryalguda Miryalaguda. Verified chassis: MB1NACHDXHPAZ5239.",
       "created_at": "2026-10-27T23:22:04.879Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-298965",
@@ -2328,7 +2400,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KONIKATI  MAHENDAR",
       "internal_aging_days": 75,
       "internal_chassis_number": "MC2F7LRC0JH151583",
@@ -2338,9 +2410,10 @@
       "internal_seized_on": "46240.6854166667",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2018 Eicher _11.10 PRO available for bidding and purchase at Warangal branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MC2F7LRC0JH151583.",
+      "public_description": "Certified 2018 Eicher _11.10 PRO available for direct yard inspection and purchase at Warangal branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MC2F7LRC0JH151583.",
       "created_at": "2026-10-28T00:22:07.314Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365664",
@@ -2359,7 +2432,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "SR PARKING YARD MIRYALAGUDA",
-      "internal_yard_contact": "9949003131",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VADDE  ANJANEYULU",
       "internal_aging_days": 5,
       "internal_chassis_number": "MB1HTDHD2HRJV3360",
@@ -2367,11 +2440,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46310.7159722222",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Heavy duty Ashok Leyland 2518 Tipper in excellent working condition. Certified 16 CuM rock body, ideal for construction and mining site operations. Available for physical yard inspection at Uppal branch.",
       "created_at": "2026-10-28T01:22:10.635Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-385400",
@@ -2390,7 +2464,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VASA  SRINIVAS",
       "internal_aging_days": 25,
       "internal_chassis_number": "MB1NEVLD5LPAL7488",
@@ -2400,9 +2474,10 @@
       "internal_seized_on": "46290.8138888889",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2020 AL NP 4825 available for bidding and purchase at Nalgonda branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1NEVLD5LPAL7488.",
+      "public_description": "Certified 2020 AL NP 4825 available for direct yard inspection and purchase at Nalgonda branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1NEVLD5LPAL7488.",
       "created_at": "2026-10-28T02:22:10.635Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-385379",
@@ -2421,7 +2496,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "VASA  SRINIVAS",
       "internal_aging_days": 25,
       "internal_chassis_number": "MB1NEVLD1LPBL6311",
@@ -2431,9 +2506,10 @@
       "internal_seized_on": "46290.8097222222",
       "publication_status": "published",
       "availability_status": "available",
-      "public_description": "Certified 2020 AL NP 4825 available for bidding and purchase at Nalgonda branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1NEVLD1LPBL6311.",
+      "public_description": "Certified 2020 AL NP 4825 available for direct yard inspection and purchase at Nalgonda branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MB1NEVLD1LPBL6311.",
       "created_at": "2026-10-28T03:22:14.618Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-315016",
@@ -2452,7 +2528,7 @@
       "public_price_label": "NA",
       "branch_location": "Hyderabad",
       "yard_name": "Shriram Automall Warangal Warangal",
-      "internal_yard_contact": "9701662038",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SHREESKANDA INFRATECH PRIVATE LIMITED",
       "internal_aging_days": 237,
       "internal_chassis_number": "MB1HTGHD5JRCX8137",
@@ -2460,11 +2536,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "https://aiv3portal.autoinspekt.com/report/downloadimagereport/MzAyNjM4MTY2Nw==/ZW5jb2RlZF9pZA==",
       "internal_seized_on": "46219.3888888889",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2018 Ashok Leyland AL_2518 T TIPPER located at Hyderabad branch / Shriram Automall Warangal Warangal. Verified chassis: MB1HTGHD5JRCX8137.",
       "created_at": "2026-11-19T13:31:52.652Z",
-      "updated_at": "2026-11-19T13:31:52.652Z"
+      "updated_at": "2026-11-19T13:31:52.652Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-378316",
@@ -2483,7 +2560,7 @@
       "public_price_label": "NA",
       "branch_location": "Kodada",
       "yard_name": "SR PARKING YARD MIRYALAGUDA",
-      "internal_yard_contact": "9949003131",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "PAPPULA  RANI",
       "internal_aging_days": 88,
       "internal_chassis_number": "MA3ETDE1S00392930BH",
@@ -2495,7 +2572,8 @@
       "availability_status": "available",
       "public_description": "Certified 2017 Maruti Suzuki Celerio located at Kodada branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MA3ETDE1S00392930BH.",
       "created_at": "2026-11-19T13:31:59.319Z",
-      "updated_at": "2026-11-19T13:31:59.319Z"
+      "updated_at": "2026-11-19T13:31:59.319Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-288865",
@@ -2514,7 +2592,7 @@
       "public_price_label": "NA",
       "branch_location": "Vikarabad",
       "yard_name": "Shriram Automall Warangal Warangal",
-      "internal_yard_contact": "9701662038",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KASHAMONI  NARSIMULU",
       "internal_aging_days": 37,
       "internal_chassis_number": "MA1ZW2TBKK6J45690",
@@ -2526,7 +2604,8 @@
       "availability_status": "available",
       "public_description": "Certified 2019 Mahindra Bolero located at Vikarabad branch / Shriram Automall Warangal Warangal. Verified chassis: MA1ZW2TBKK6J45690.",
       "created_at": "2026-11-19T13:32:04.752Z",
-      "updated_at": "2026-11-19T13:32:04.752Z"
+      "updated_at": "2026-11-19T13:32:04.752Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-377374",
@@ -2545,7 +2624,7 @@
       "public_price_label": "NA",
       "branch_location": "Gadwal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "K RAMULU",
       "internal_aging_days": 43,
       "internal_chassis_number": "MA1ZU2TBKJ1B25821",
@@ -2557,7 +2636,8 @@
       "availability_status": "unavailable",
       "public_description": "Certified 2018 Mahindra Bolero located at Gadwal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA1ZU2TBKJ1B25821.",
       "created_at": "2026-11-19T13:32:10.092Z",
-      "updated_at": "2026-11-19T13:32:10.092Z"
+      "updated_at": "2026-11-19T13:32:10.092Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-374846",
@@ -2576,7 +2656,7 @@
       "public_price_label": "NA",
       "branch_location": "Nirmal",
       "yard_name": "Shriram Automall Mahabubnagar Mahaboobnager",
-      "internal_yard_contact": "9885733282",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "THOTA  SADGUNA",
       "internal_aging_days": 41,
       "internal_chassis_number": "MA3FLEB1S00505674LH",
@@ -2588,7 +2668,8 @@
       "availability_status": "available",
       "public_description": "Certified 2017 ERTIGA SMART HYBRID ZDI+ located at Nirmal branch / Shriram Automall Mahabubnagar Mahaboobnager. Verified chassis: MA3FLEB1S00505674LH.",
       "created_at": "2026-11-19T13:32:15.520Z",
-      "updated_at": "2026-11-19T13:32:15.520Z"
+      "updated_at": "2026-11-19T13:32:15.520Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-306174",
@@ -2607,7 +2688,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "KV SUBBARAO PARKING YARD Khammam",
-      "internal_yard_contact": "9394702463",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BODDUPALLI  NIRANJAN",
       "internal_aging_days": 34,
       "internal_chassis_number": "MALAF51CLLM119621C",
@@ -2619,7 +2700,8 @@
       "availability_status": "available",
       "public_description": "Certified 2020 HYUNDAI SANTRO located at Nalgonda branch / KV SUBBARAO PARKING YARD Khammam. Verified chassis: MALAF51CLLM119621C.",
       "created_at": "2026-11-19T13:32:16.403Z",
-      "updated_at": "2026-11-19T13:32:16.403Z"
+      "updated_at": "2026-11-19T13:32:16.403Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-381015",
@@ -2638,7 +2720,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Shriram Automall Nizamabad",
-      "internal_yard_contact": "9003286493",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "RAMAVATH  RAVI",
       "internal_aging_days": 33,
       "internal_chassis_number": "MA3CNC62SRB369456",
@@ -2650,7 +2732,8 @@
       "availability_status": "available",
       "public_description": "Certified 2024 XL6 Alpha MT located at Warangal branch / Shriram Automall Nizamabad. Verified chassis: MA3CNC62SRB369456.",
       "created_at": "2026-11-19T13:32:17.435Z",
-      "updated_at": "2026-11-19T13:32:17.435Z"
+      "updated_at": "2026-11-19T13:32:17.435Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-316073",
@@ -2669,7 +2752,7 @@
       "public_price_label": "NA",
       "branch_location": "Khammam",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KODUMURI KAMALAKAR",
       "internal_aging_days": 34,
       "internal_chassis_number": "MALB241ELLM016876A",
@@ -2681,7 +2764,8 @@
       "availability_status": "unavailable",
       "public_description": "Certified 2020 HYUNDAI AURA located at Khammam branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MALB241ELLM016876A.",
       "created_at": "2026-11-19T13:32:18.521Z",
-      "updated_at": "2026-11-19T13:32:18.521Z"
+      "updated_at": "2026-11-19T13:32:18.521Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-396616",
@@ -2700,7 +2784,7 @@
       "public_price_label": "NA",
       "branch_location": "Nirmal",
       "yard_name": "SR PARKING YARD MIRYALAGUDA",
-      "internal_yard_contact": "9949003131",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "JADI  SURENDHAR",
       "internal_aging_days": 22,
       "internal_chassis_number": "MALA851DLGM465904",
@@ -2712,7 +2796,8 @@
       "availability_status": "available",
       "public_description": "Certified 2016 GRAND I 10 SPORTZ located at Nirmal branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MALA851DLGM465904.",
       "created_at": "2026-11-19T13:32:20.360Z",
-      "updated_at": "2026-11-19T13:32:20.360Z"
+      "updated_at": "2026-11-19T13:32:20.360Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-327462",
@@ -2731,7 +2816,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MARUPAKA  NIRANJAN",
       "internal_aging_days": 23,
       "internal_chassis_number": "MB1AA22E7FRX07454",
@@ -2743,7 +2828,8 @@
       "availability_status": "unavailable",
       "public_description": "Certified 2015 Ashok Leyland Dost located at Nalgonda branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1AA22E7FRX07454.",
       "created_at": "2026-11-19T13:32:21.141Z",
-      "updated_at": "2026-11-19T13:32:21.141Z"
+      "updated_at": "2026-11-19T13:32:21.141Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-390209",
@@ -2762,7 +2848,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "NOWSU  MAHESH",
       "internal_aging_days": 19,
       "internal_chassis_number": "HAR3DXSSL02600076",
@@ -2770,11 +2856,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46328.5923611111",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2018 3DX2WD BACKHOELOADER located at Nalgonda branch / Shriram Automall Patancheru Hyderabad. Verified chassis: HAR3DXSSL02600076.",
       "created_at": "2026-11-19T13:32:25.442Z",
-      "updated_at": "2026-11-19T13:32:25.442Z"
+      "updated_at": "2026-11-19T13:32:25.442Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-394849",
@@ -2793,7 +2880,7 @@
       "public_price_label": "NA",
       "branch_location": "Nalgonda",
       "yard_name": "Shriram Automall Karimnagar Karimnagar",
-      "internal_yard_contact": "9849220078",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "CHINTHAREDDI RAVINDAR REDDY",
       "internal_aging_days": 19,
       "internal_chassis_number": "MAT535073LYG09753",
@@ -2801,11 +2888,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46331.53125",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2020 Tata Motors INTRA located at Nalgonda branch / Shriram Automall Karimnagar Karimnagar. Verified chassis: MAT535073LYG09753.",
       "created_at": "2026-11-19T13:32:25.442Z",
-      "updated_at": "2026-11-19T13:32:25.442Z"
+      "updated_at": "2026-11-19T13:32:25.442Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-361315",
@@ -2824,7 +2912,7 @@
       "public_price_label": "NA",
       "branch_location": "Kothagudem",
       "yard_name": "Shriram Automall Patancheru Hyderabad",
-      "internal_yard_contact": "9666661192",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MARLAPATI AJAY KUMAR",
       "internal_aging_days": 17,
       "internal_chassis_number": "MB1AA22E7PRKH8037",
@@ -2832,11 +2920,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46328.5881944444",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2023 Ashok Leyland Dost located at Kothagudem branch / Shriram Automall Patancheru Hyderabad. Verified chassis: MB1AA22E7PRKH8037.",
       "created_at": "2026-11-19T13:32:25.442Z",
-      "updated_at": "2026-11-19T13:32:25.442Z"
+      "updated_at": "2026-11-19T13:32:25.442Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-379219",
@@ -2855,7 +2944,7 @@
       "public_price_label": "NA",
       "branch_location": "Kompally",
       "yard_name": "Shriram Automall Warangal Warangal",
-      "internal_yard_contact": "9701662038",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "PULLOLA MANGA",
       "internal_aging_days": 15,
       "internal_chassis_number": "MC2F8HRC0HF129952",
@@ -2863,11 +2952,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46331.4159722222",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2017 Eicher _11.10 located at Kompally branch / Shriram Automall Warangal Warangal. Verified chassis: MC2F8HRC0HF129952.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-299487",
@@ -2886,7 +2976,7 @@
       "public_price_label": "NA",
       "branch_location": "Ecil",
       "yard_name": "KV SUBBARAO PARKING YARD Khammam",
-      "internal_yard_contact": "9394702463",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KETHAVATH   RADHIKA",
       "internal_aging_days": 15,
       "internal_chassis_number": "MBHEWB22SMC650011",
@@ -2894,11 +2984,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46326.6145833333",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2021 Maruti Suzuki Baleno located at Ecil branch / KV SUBBARAO PARKING YARD Khammam. Verified chassis: MBHEWB22SMC650011.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365250",
@@ -2917,7 +3008,7 @@
       "public_price_label": "NA",
       "branch_location": "Miryalaguda",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "THANDU  SRIKANTH",
       "internal_aging_days": 14,
       "internal_chassis_number": "MA3CZFB3SPH820734",
@@ -2925,11 +3016,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46332.6013888889",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2023 DIZER VXI AGS located at Miryalaguda branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MA3CZFB3SPH820734.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-384871",
@@ -2948,7 +3040,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "SANGIREDDY   KUMARASWAMY",
       "internal_aging_days": 13,
       "internal_chassis_number": "MBNAS48ABLTL46193",
@@ -2956,11 +3048,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46330.4958333333",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2020 Swaraj SWARAJ 843 XM located at Warangal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MBNAS48ABLTL46193.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-365238",
@@ -2979,7 +3072,7 @@
       "public_price_label": "NA",
       "branch_location": "Karimnagar",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "UPPU  RAJKUMAR",
       "internal_aging_days": 12,
       "internal_chassis_number": "MA3FZBH1T00133183KJ",
@@ -2987,11 +3080,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46332.3527777778",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2018 MARUTI SUPER CARRY DIESEL-GOODS located at Karimnagar branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MA3FZBH1T00133183KJ.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-352545",
@@ -3010,7 +3104,7 @@
       "public_price_label": "NA",
       "branch_location": "Suryapet",
       "yard_name": "SR PARKING YARD MIRYALAGUDA",
-      "internal_yard_contact": "9949003131",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MANTRI  NARSAIAH",
       "internal_aging_days": 12,
       "internal_chassis_number": "MBNAAALAPHZM00761",
@@ -3018,11 +3112,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46325.4020833333",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2017 575 DI BSIII A located at Suryapet branch / SR PARKING YARD MIRYALAGUDA. Verified chassis: MBNAAALAPHZM00761.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-353064",
@@ -3041,7 +3136,7 @@
       "public_price_label": "NA",
       "branch_location": "Hyderabad",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "PATLAVATH  DEVENDER",
       "internal_aging_days": 12,
       "internal_chassis_number": "MB1NECHD8PPKW6361",
@@ -3049,11 +3144,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46332.4722222222",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2023 AL GP4825/66 GOODS located at Hyderabad branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MB1NECHD8PPKW6361.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-389414",
@@ -3072,7 +3168,7 @@
       "public_price_label": "NA",
       "branch_location": "L B Nagar (Hyd)",
       "yard_name": "Shriram Automall Miryalguda Miryalaguda",
-      "internal_yard_contact": "9948664611",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "GANDU  RAMAKRISHNA",
       "internal_aging_days": 11,
       "internal_chassis_number": "MA3CZF63SJJ408662",
@@ -3080,11 +3176,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46332.6388888889",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2018 Maruti Suzuki Swift located at L B Nagar (Hyd) branch / Shriram Automall Miryalguda Miryalaguda. Verified chassis: MA3CZF63SJJ408662.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-394214",
@@ -3103,7 +3200,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "BANDARAPU  ARUN KUMAR",
       "internal_aging_days": 8,
       "internal_chassis_number": "MC2F5HRC0FH106760",
@@ -3111,11 +3208,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46335.6013888889",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2015 Eicher 11.10 located at Uppal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MC2F5HRC0FH106760.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-377504",
@@ -3134,7 +3232,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "KETHAVATH  LAXMI",
       "internal_aging_days": 8,
       "internal_chassis_number": "MC2GLJRC0PB220807",
@@ -3142,11 +3240,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46335.6069444444",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2023 Eicher PRO 3015 located at Uppal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MC2GLJRC0PB220807.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-323039",
@@ -3165,7 +3264,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "RAMAKRISHNA  POTTA",
       "internal_aging_days": 5,
       "internal_chassis_number": "MAT793002L1P09948",
@@ -3173,11 +3272,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46338.7486111111",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2020 Tata Motors LPT located at Uppal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MAT793002L1P09948.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-398075",
@@ -3196,7 +3296,7 @@
       "public_price_label": "NA",
       "branch_location": "Uppal",
       "yard_name": "Shriram Yard LB Nagar Hyderabad Hederabad",
-      "internal_yard_contact": "9553999099",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "DUDEKULA  DASTAGIRI",
       "internal_aging_days": 5,
       "internal_chassis_number": "MC2ERHRC0PE226159",
@@ -3204,11 +3304,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46338.7527777778",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2023 Eicher PRO 2110 HHSD located at Uppal branch / Shriram Yard LB Nagar Hyderabad Hederabad. Verified chassis: MC2ERHRC0PE226159.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     },
     {
       "id": "veh-281483",
@@ -3227,7 +3328,7 @@
       "public_price_label": "NA",
       "branch_location": "Warangal",
       "yard_name": "Lakshmi Narasimha Parking Agency Bhuvanagiri",
-      "internal_yard_contact": "9010098889",
+      "internal_yard_contact": "7673982156",
       "internal_customer_name": "MOHAMMAD  MASOOD",
       "internal_aging_days": 4,
       "internal_chassis_number": "MBJB49BT400140327091",
@@ -3235,11 +3336,12 @@
       "source_sale_status": "Parked",
       "source_image_url": "",
       "internal_seized_on": "46340.4243055556",
-      "publication_status": "published",
-      "availability_status": "available",
+      "publication_status": "unpublished",
+      "availability_status": "unavailable",
       "public_description": "Certified 2016 TOYOTA ETIOS GD located at Warangal branch / Lakshmi Narasimha Parking Agency Bhuvanagiri. Verified chassis: MBJB49BT400140327091.",
       "created_at": "2026-11-19T13:32:25.443Z",
-      "updated_at": "2026-11-19T13:32:25.443Z"
+      "updated_at": "2026-11-19T13:32:25.443Z",
+      "yard_contact_number": "7673982156"
     }
   ],
   "vehicle_images": [

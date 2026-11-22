@@ -144,9 +144,9 @@ export const VehicleCard: React.FC<VehicleCardProps> = ({ vehicle, onViewDetails
               </div>
             </div>
             <div className="text-right">
-              <span className="inline-flex items-center gap-1 text-[10px] font-extrabold px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-900 border border-amber-500/30">
-                <Gavel className="w-3 h-3 text-amber-700" />
-                Online Bid
+              <span className="inline-flex items-center gap-1 text-[10px] font-extrabold px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-900 border border-blue-500/20">
+                <Tag className="w-3 h-3 text-blue-700" />
+                Direct Sale
               </span>
             </div>
           </div>
@@ -165,12 +165,12 @@ export const VehicleCard: React.FC<VehicleCardProps> = ({ vehicle, onViewDetails
             <div className="flex items-center justify-between pt-1">
               <span className="text-[10px] text-slate-400 font-medium">Yard Contact:</span>
               <a
-                href={`tel:${vehicle.yard_contact_number || '1800-309-3090'}`}
+                href={`tel:${vehicle.yard_contact_number || '7673982156'}`}
                 onClick={(e) => e.stopPropagation()}
                 className="font-mono text-[11px] font-bold text-emerald-700 hover:text-emerald-800 flex items-center gap-1"
               >
                 <Phone className="w-3 h-3 text-emerald-600" />
-                <span>{vehicle.yard_contact_number || '1800-309-3090'}</span>
+                <span>{vehicle.yard_contact_number || '7673982156'}</span>
               </a>
             </div>
           </div>
@@ -194,10 +194,10 @@ export const VehicleCard: React.FC<VehicleCardProps> = ({ vehicle, onViewDetails
               e.stopPropagation();
               onEnquire(vehicle);
             }}
-            className="flex-1 h-10 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-black text-xs flex items-center justify-center gap-1.5 shadow-sm hover:shadow-md transition active:scale-98"
+            className="flex-1 h-10 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xs flex items-center justify-center gap-1.5 shadow-sm hover:shadow-md transition active:scale-98"
           >
-            <Gavel className="w-3.5 h-3.5 text-slate-950" />
-            <span>Place Bid</span>
+            <Phone className="w-3.5 h-3.5 text-white" />
+            <span>Contact Yard</span>
           </button>
         </div>
       </div>

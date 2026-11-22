@@ -115,7 +115,7 @@ export const Navbar: React.FC<NavbarProps> = ({ settings, currentView, onNavigat
                     AutoHub <span className="font-extrabold text-blue-700">Vehicles</span>
                   </span>
                   <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-md bg-amber-500/10 text-amber-700 text-[9px] font-black uppercase tracking-wider border border-amber-500/20">
-                    Direct Yard Bidding
+                    Direct Yard Purchases
                   </span>
                 </div>
                 <p className="text-[10px] sm:text-[11px] font-semibold text-slate-500 uppercase tracking-wider block mt-0.5">

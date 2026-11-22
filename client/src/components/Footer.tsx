@@ -48,11 +48,11 @@ const WHY_ITEMS = [
   },
   {
     icon: Users,
-    title: 'Transparent Bidding',
+    title: 'Direct Yard Purchase',
     color: 'text-cyan-500',
     bg: 'bg-cyan-50',
     border: 'hover:border-cyan-200',
-    description: 'See the base asking price and submit your own bid online. The yard team reviews top bids to declare the winning offer.',
+    description: 'Inspect vehicles in person at regional yards and complete direct purchases with transparent documentation and yard staff.',
   },
   {
     icon: Lock,
@@ -88,7 +88,7 @@ const STEPS = [
     num: '03',
     icon: ClipboardCheck,
     title: 'Submit an online enquiry',
-    desc: 'Submit an online enquiry with your vehicle stock ID to register your bid.',
+    desc: 'Submit an online enquiry or contact the yard directly with the vehicle stock ID.',
     color: 'text-emerald-600',
     bg: 'bg-emerald-50',
     accent: '#059669',
@@ -96,8 +96,8 @@ const STEPS = [
   {
     num: '04',
     icon: Handshake,
-    title: 'Win and Bid',
-    desc: 'Submit your best bid above the base price, win the vehicle auction, and finalize documentation.',
+    title: 'Inspect & Purchase',
+    desc: 'Inspect the vehicle in person, verify all documents with yard staff, and complete your purchase directly.',
     color: 'text-orange-600',
     bg: 'bg-orange-50',
     accent: '#EA580C',
@@ -240,7 +240,7 @@ export const WhyChooseAndHowItWorks: React.FC<{
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/[0.08] border border-white/[0.14] text-cyan-300 text-xs font-bold uppercase tracking-wider mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-            Ready to Bid?
+            Ready to Purchase?
           </div>
           <h3 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight mb-4">
             Have a Specific Vehicle in Mind?
@@ -304,7 +304,7 @@ export const Footer: React.FC<FooterProps> = ({ settings, onNavigate, onOpenEnqu
               </div>
             </div>
             <p className="text-slate-400 text-[12px] leading-relaxed">
-              AutoHub — Certified passenger cars, commercial vehicles, trucks, agricultural tractors, and commercial equipment with direct yard bidding.
+              AutoHub — Certified passenger cars, commercial vehicles, trucks, agricultural tractors, and commercial equipment with direct yard sales.
             </p>
             <div className="flex gap-2">
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/[0.05] border border-white/[0.08] text-[10px] text-slate-400">

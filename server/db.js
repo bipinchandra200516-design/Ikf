@@ -16,15 +16,15 @@ if (!fs.existsSync(DATA_DIR)) {
 const DEFAULT_SETTINGS = {
   brand_name: 'AutoHub',
   tagline: 'AutoHub — Multi-Category Vehicle Marketplace',
-  phone: '1800-309-3090',
-  whatsapp_number: '919705305477',
+  phone: '7673982156',
+  whatsapp_number: '917673982156',
   email: 'contact@autohub.com',
   address: 'AutoHub Pan-India Yard & Branch Network',
   default_price_label: 'Price',
   public_show_registration: true,
   public_show_yard_name: true,
   hero_headline: 'Certified Pre-Owned & Commercial Vehicle Inventory',
-  hero_subtext: 'Direct yard purchases and transparent bidding powered by AutoHub Marketplace.'
+  hero_subtext: 'Direct yard purchases and verified inventory powered by AutoHub Marketplace.'
 };
 
 const DEFAULT_STATUS_MAPPINGS = [
@@ -667,7 +667,7 @@ class AutoHubDatabase {
       price_label: v.public_price_label || settings.default_price_label || 'Base Asking Price',
       branch_location: v.branch_location || 'Branch Office',
       yard_name: v.yard_name || 'Designated Yard',
-      yard_contact_number: v.internal_yard_contact || v.yard_contact_number || '1800-309-3090',
+      yard_contact_number: v.internal_yard_contact || v.yard_contact_number || '7673982156',
       chassis_number: v.internal_chassis_number || v.chasis_number || '',
       engine_number: v.internal_engine_number || v.engine_number || '',
       registration_number: v.registration_number || '',

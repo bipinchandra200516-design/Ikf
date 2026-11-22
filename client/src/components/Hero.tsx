@@ -27,13 +27,13 @@ const ANIMATED_WORDS = ['Passenger Cars', 'Commercial Cabs', 'SCV Pickups', 'LCV
 const TRUST_STATS = [
   { label: 'Vehicle Categories', value: '7 Sectors',   icon: Layers },
   { label: 'Designated Yards',   value: 'Telangana',   icon: Building2 },
-  { label: 'Inspected Stock',    value: '75+ Units',   icon: ShieldCheck },
-  { label: 'Bidding Status',     value: 'Open & Live', icon: TrendingUp },
+  { label: 'Inspected Stock',    value: '40+ Units',   icon: ShieldCheck },
+  { label: 'Stock Status',       value: 'Verified & Live', icon: TrendingUp },
 ];
 
 const TICKER_ITEMS = [
-  '7 Vehicle Categories', 'Telangana Yards', 'Physical Inspection', 'Online Bidding',
-  '75+ Units Available', 'Transparent Pricing', 'Zero Middlemen', 'Verified Chassis',
+  '7 Vehicle Categories', 'Telangana Yards', 'Physical Inspection', 'Direct Yard Purchase',
+  '40+ Units Available', 'Transparent Pricing', 'Zero Middlemen', 'Verified Chassis',
 ];
 
 export const Hero: React.FC<HeroProps> = ({ settings, onSearch, onBrowse }) => {
@@ -118,14 +118,14 @@ export const Hero: React.FC<HeroProps> = ({ settings, onSearch, onBrowse }) => {
             <span>Verified Dealership & Yard Stock</span>
             <span className="w-px h-3 bg-white/20 mx-0.5 sm:mx-1" />
             <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-            <span className="text-cyan-300 font-bold">Direct Yard Bidding</span>
+            <span className="text-cyan-300 font-bold">Direct Yard Purchase</span>
           </div>
         </div>
 
         {/* Main Headline */}
         <div className="text-center max-w-4xl mx-auto animate-fade-in-up delay-100">
           <h1 className="font-heading font-black text-2xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight text-white leading-[1.2] sm:leading-[1.15]">
-            Find &amp; Bid on Certified{' '}
+            Find &amp; Purchase Certified{' '}
             <br className="hidden sm:inline" />
             <span className="hero-word-container inline-block">
               <span
@@ -139,7 +139,7 @@ export const Hero: React.FC<HeroProps> = ({ settings, onSearch, onBrowse }) => {
 
           <p className="mt-3 sm:mt-5 text-slate-300 text-xs sm:text-base lg:text-lg max-w-2xl mx-auto leading-relaxed font-normal px-2 sm:px-0">
             Direct access to verified dealership inventory across Telangana yards. Inspect vehicles
-            in person at regional depots, verify chassis numbers, and bid transparently online.
+            in person at regional depots, verify chassis numbers, and purchase directly from the yard.
           </p>
         </div>
 

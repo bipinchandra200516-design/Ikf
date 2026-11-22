@@ -41,7 +41,7 @@ export const LatestArrivals: React.FC<LatestArrivalsProps> = ({
               Featured Yard Arrivals
             </h2>
             <p className="mt-2 text-slate-500 text-xs sm:text-sm max-w-xl leading-relaxed">
-              Certified vehicles recently processed across Telangana regional yards, ready for physical inspection and online bidding.
+              Certified vehicles recently processed across Telangana regional yards, ready for physical inspection and direct purchase.
             </p>
           </div>
 
