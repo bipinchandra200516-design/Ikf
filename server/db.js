@@ -6,11 +6,25 @@ import bcrypt from 'bcryptjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DATA_DIR = path.join(__dirname, 'data');
+const PERSISTENT_ROOT = process.env.PERSISTENT_DIR || (fs.existsSync('/var/data') ? '/var/data' : null);
+const DATA_DIR = PERSISTENT_ROOT ? path.join(PERSISTENT_ROOT, 'data') : path.join(__dirname, 'data');
 const DB_FILE = path.join(DATA_DIR, 'autohub_db.json');
 
 if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
+// If running with persistent disk and DB file does not exist on disk yet, copy bundled data
+if (PERSISTENT_ROOT && !fs.existsSync(DB_FILE)) {
+  const bundledDb = path.join(__dirname, 'data', 'autohub_db.json');
+  if (fs.existsSync(bundledDb)) {
+    try {
+      fs.copyFileSync(bundledDb, DB_FILE);
+      console.log('[AutoHub DB] Seeded initial database to persistent disk at:', DB_FILE);
+    } catch (err) {
+      console.error('[AutoHub DB] Failed to seed initial database to disk:', err);
+    }
+  }
 }
 
 const DEFAULT_SETTINGS = {
