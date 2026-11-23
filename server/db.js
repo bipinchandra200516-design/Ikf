@@ -14,15 +14,34 @@ if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 
-// If running with persistent disk and DB file does not exist on disk yet, copy bundled data
-if (PERSISTENT_ROOT && !fs.existsSync(DB_FILE)) {
+const DB_VERSION = 2;
+
+// If running with persistent disk and DB file does not exist on disk yet, or is older version, copy bundled data
+if (PERSISTENT_ROOT) {
   const bundledDb = path.join(__dirname, 'data', 'autohub_db.json');
   if (fs.existsSync(bundledDb)) {
-    try {
-      fs.copyFileSync(bundledDb, DB_FILE);
-      console.log('[AutoHub DB] Seeded initial database to persistent disk at:', DB_FILE);
-    } catch (err) {
-      console.error('[AutoHub DB] Failed to seed initial database to disk:', err);
+    let shouldCopy = false;
+    if (!fs.existsSync(DB_FILE)) {
+      shouldCopy = true;
+    } else {
+      try {
+        const existingData = JSON.parse(fs.readFileSync(DB_FILE, 'utf-8'));
+        if (!existingData.db_version || existingData.db_version < DB_VERSION || (existingData.vehicles && existingData.vehicles.length < 70)) {
+          console.log(`[AutoHub DB] Upgrading persistent DB to v${DB_VERSION} with full 72 verified vehicles`);
+          shouldCopy = true;
+        }
+      } catch (e) {
+        shouldCopy = true;
+      }
+    }
+
+    if (shouldCopy) {
+      try {
+        fs.copyFileSync(bundledDb, DB_FILE);
+        console.log('[AutoHub DB] Synced v' + DB_VERSION + ' database to persistent disk at:', DB_FILE);
+      } catch (err) {
+        console.error('[AutoHub DB] Failed to seed initial database to disk:', err);
+      }
     }
   }
 }

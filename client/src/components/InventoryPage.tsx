@@ -46,6 +46,7 @@ export const InventoryPage: React.FC<InventoryPageProps> = ({
   const [totalPages, setTotalPages] = useState(1);
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState<string | null>(null);
 
   // Filters State
   const [category, setCategory] = useState<string>(initialCategory || 'all');
@@ -75,6 +76,7 @@ export const InventoryPage: React.FC<InventoryPageProps> = ({
 
   const loadData = () => {
     setLoading(true);
+    setFetchError(null);
     fetchPublicVehicles({
       category: category === 'all' ? '' : category,
       search,
@@ -87,13 +89,14 @@ export const InventoryPage: React.FC<InventoryPageProps> = ({
       limit: 12
     })
       .then((res) => {
-        setVehicles(res.vehicles);
-        setTotalCount(res.total);
+        setVehicles(res.vehicles || []);
+        setTotalCount(res.total || 0);
         setTotalPages(res.total_pages || 1);
         setLoading(false);
       })
       .catch((err) => {
         console.error('Failed to fetch filtered vehicles:', err);
+        setFetchError('Unable to load vehicle listings. Server may be connecting.');
         setLoading(false);
       });
   };
@@ -295,6 +298,20 @@ export const InventoryPage: React.FC<InventoryPageProps> = ({
               <div className="py-20 text-center space-y-3">
                 <div className="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto" />
                 <p className="text-xs font-bold text-slate-500">Querying verified listings...</p>
+              </div>
+            ) : fetchError ? (
+              <div className="bg-white rounded-3xl p-12 text-center border border-rose-200 shadow-sm max-w-md mx-auto">
+                <Inbox className="w-12 h-12 text-rose-400 mx-auto mb-3" />
+                <h3 className="font-heading font-black text-lg text-slate-900">Connection Error</h3>
+                <p className="text-xs text-slate-500 mt-1 mb-5">
+                  {fetchError}
+                </p>
+                <button
+                  onClick={loadData}
+                  className="px-5 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs"
+                >
+                  Retry Connection
+                </button>
               </div>
             ) : vehicles.length === 0 ? (
               <div className="bg-white rounded-3xl p-12 text-center border border-slate-200 shadow-sm max-w-md mx-auto">
